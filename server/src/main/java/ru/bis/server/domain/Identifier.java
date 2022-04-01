@@ -6,13 +6,13 @@ import lombok.*;
 
 import javax.persistence.*;
 
-@Data
+/*@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "identifier")
+@Table(name = "identifier")*/
 public class Identifier {
-    @Id
+    /*@Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE )
     private Long id;
 
@@ -23,6 +23,6 @@ public class Identifier {
     @Setter(onMethod_=@JsonIgnore)
     @ManyToOne( cascade = CascadeType.ALL)
     @JoinColumn(name = "user_id")
-    private User user;
+    private User user;*/
 
 }

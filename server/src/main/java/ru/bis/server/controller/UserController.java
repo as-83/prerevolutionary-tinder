@@ -21,8 +21,8 @@ public class UserController {
     }
 
     @GetMapping("/users/{id}")
-    public ResponseEntity<User> getAllUsers(@PathVariable long id) {
-        Optional<User> user = service.getUserBuId(id);
+    public ResponseEntity<User> getUser(@PathVariable long id) {
+        Optional<User> user = service.getUserByTelegramId(id);
         return user.map(value -> new ResponseEntity<>(value, HttpStatus.OK))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
@@ -45,8 +45,9 @@ public class UserController {
         return new ResponseEntity<>(fans, HttpStatus.OK);
     }
 
-    @PostMapping("/users")
-    public ResponseEntity<User> addUser(@RequestBody User user) {
+    @PostMapping("/users/{id}")
+    public ResponseEntity<User> addUser(@RequestBody User user, @PathVariable long id) {
+        user.setTelegramId(id);
         HttpStatus httpStatus = HttpStatus.CREATED;
         User newUser = service.addUser(user);
         if (newUser == null) {

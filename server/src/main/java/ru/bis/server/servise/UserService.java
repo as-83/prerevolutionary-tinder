@@ -12,7 +12,7 @@ public interface UserService {
 
     List<User> getUsersFans(long id);
 
-    Optional<User> getUserBuId(long id);
+    Optional<User> getUserByTelegramId(long id);
 
     User addUser(User user);
 }

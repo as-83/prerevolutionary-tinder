@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     private UserRepo userRepo;
 
     @Autowired
@@ -24,19 +24,20 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public List<User> getUsersFavorites(long id) {
-        User user =  userRepo.findById(id).orElse(new User());
+        User user = userRepo.findById(id).orElse(new User());
         return user.getFavorites();
     }
 
     @Override
     public List<User> getUsersFans(long id) {
-        User user =  userRepo.findById(id).orElse(new User());
+        User user = userRepo.findById(id).orElse(new User());
         return user.getFans();
     }
 
     @Override
-    public Optional<User> getUserBuId(long id) {
-        return userRepo.findById(id);
+    public Optional<User> getUserByTelegramId(long id) {
+
+        return userRepo.getByTelegramId(id);
     }
 
     @Override

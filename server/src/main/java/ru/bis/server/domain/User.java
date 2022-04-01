@@ -18,6 +18,9 @@ public class User {
     @SequenceGenerator(name = "usrIdSeq", sequenceName = "usr_id_seq", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "usrIdSeq")
     private  long userId;
+    @Getter(onMethod_=@JsonIgnore)
+    @Setter(onMethod_=@JsonIgnore)
+    private long telegramId;
     private String name;
     private String description;
     private Sex sex;
@@ -44,10 +47,10 @@ public class User {
     private List<User> fans  = new ArrayList<>();
 
 
-    @Getter(onMethod_=@JsonIgnore)
+   /* @Getter(onMethod_=@JsonIgnore)
     @Setter(onMethod_=@JsonIgnore)
     @OneToMany(mappedBy = "user")
-    private List<Identifier> identifiers = new ArrayList<>();
+    private List<Identifier> identifiers = new ArrayList<>();*/
 
 
 }
