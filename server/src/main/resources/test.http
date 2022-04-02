@@ -1,3 +1,15 @@
+POST http://localhost:8080/api/users
+Content-Type: application/x-www-form-urlencoded
+
+userId=16&favoriteId=1
+
+###
+POST http://localhost:8080/api/users
+Content-Type: application/x-www-form-urlencoded
+
+userId=1&favoriteId=16
+
+###
 POST http://localhost:8080/api/users/99999
 Content-Type: application/json
 
@@ -12,6 +24,30 @@ Content-Type: application/json
 GET http://localhost:8080/api/users
 Accept: application/json
 
-###
+###Exists
+GET http://localhost:8080/api/users/11111
+Accept: application/json
+
+###Dont exist
 GET http://localhost:8080/api/users/22
+Accept: application/json
+
+###
+GET http://localhost:8080/api/users/find/1
+Accept: application/json
+
+###
+GET http://localhost:8080/api/favorites/1
+Accept: application/json
+
+###
+GET http://localhost:8080/api/favorites/22
+Accept: application/json
+
+###
+GET http://localhost:8080/api/fans/4
+Accept: application/json
+
+###
+GET http://localhost:8080/api/fans/22
 Accept: application/json

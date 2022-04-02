@@ -20,9 +20,9 @@ public class UserController {
         this.service = service;
     }
 
-    @GetMapping("/users/{id}")
-    public ResponseEntity<User> getUser(@PathVariable long id) {
-        Optional<User> user = service.getUserByTelegramId(id);
+    @GetMapping("/users/{telegramId}")
+    public ResponseEntity<User> getUserByTelegramId(@PathVariable long telegramId) {
+        Optional<User> user = service.getUserByTelegramId(telegramId);
         return user.map(value -> new ResponseEntity<>(value, HttpStatus.OK))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
@@ -30,6 +30,12 @@ public class UserController {
     @GetMapping("/users")
     public ResponseEntity<List<User>> getAllUsers() {
         List<User> users = service.getAllUsers();
+        return new ResponseEntity<>(users, HttpStatus.OK);
+    }
+
+    @GetMapping("/users/find/{id}")
+    public ResponseEntity<List<User>> searchUsers(@PathVariable long id) {
+        List<User> users = service.searchUsers(id);
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 
@@ -55,6 +61,17 @@ public class UserController {
             httpStatus = HttpStatus.BAD_REQUEST;
         }
         return new ResponseEntity<>(newUser, httpStatus);
+    }
+
+    @PostMapping("/users")
+    public ResponseEntity<User> addFavorite(@RequestParam long userId,
+                                            @RequestParam long favoriteId) {
+        HttpStatus httpStatus = HttpStatus.OK;
+
+        if (!service.addFavorite(userId, favoriteId)) {
+            httpStatus = HttpStatus.BAD_REQUEST;
+        }
+        return new ResponseEntity<>(httpStatus);
     }
 
 

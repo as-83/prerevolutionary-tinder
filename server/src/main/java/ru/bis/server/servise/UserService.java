@@ -15,4 +15,8 @@ public interface UserService {
     Optional<User> getUserByTelegramId(long id);
 
     User addUser(User user);
+
+    List<User> searchUsers(long searcherId);
+
+    boolean addFavorite(long userId, long favoriteId);
 }

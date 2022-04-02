@@ -28,7 +28,7 @@ public class User {
 
     @Getter(onMethod_=@JsonIgnore)
     @Setter(onMethod_=@JsonIgnore)
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany
     @JoinTable(
             name = "user_user",
             joinColumns = {@JoinColumn(name = "usr_id")},
@@ -38,7 +38,7 @@ public class User {
 
     @Getter(onMethod_=@JsonIgnore)
     @Setter(onMethod_=@JsonIgnore)
-    @ManyToMany( cascade = CascadeType.ALL)
+    @ManyToMany
     @JoinTable(
             name = "user_user",
             joinColumns = {@JoinColumn(name = "favorit_id")},
