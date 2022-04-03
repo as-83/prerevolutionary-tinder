@@ -10,14 +10,14 @@ Content-Type: application/x-www-form-urlencoded
 userId=1&favoriteId=16
 
 ###
-POST http://localhost:8080/api/users/99999
+POST http://localhost:8080/api/users/2
 Content-Type: application/json
 
 {
-  "name": "Столыпин",
-  "description": "Хочу несколько лет покоя для страны",
-  "sex": "MAIL",
-  "searchPreferences": "FEMALE"
+  "name": "Марфа",
+  "description": "Ищу приличного сцаря",
+  "sex": "FEMALE",
+  "searchPreferences": "MAIL"
 }
 
 ###
