@@ -1,4 +1,4 @@
-package ru.bis.server.domain;
+package ru.bis.server.model;
 
 public enum Sex {
     MAIL,

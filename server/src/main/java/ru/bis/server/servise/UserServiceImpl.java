@@ -2,8 +2,8 @@ package ru.bis.server.servise;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.bis.server.domain.Sex;
-import ru.bis.server.domain.User;
+import ru.bis.server.model.Sex;
+import ru.bis.server.model.User;
 import ru.bis.server.repo.UserRepo;
 
 import java.util.List;
@@ -38,7 +38,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Optional<User> getUserByTelegramId(long id) {
-
         return userRepo.getByTelegramId(id);
     }
 

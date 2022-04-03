@@ -1,10 +1,4 @@
-package ru.bis.server.domain;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.*;
-
-
-import javax.persistence.*;
+package ru.bis.server.model;
 
 /*@Data
 @NoArgsConstructor

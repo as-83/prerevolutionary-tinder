@@ -1,7 +1,7 @@
 package ru.bis.server.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.bis.server.domain.User;
+import ru.bis.server.model.User;
 
 import java.util.Optional;
 
