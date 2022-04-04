@@ -2,12 +2,15 @@ package ru.bis.server.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
+import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
+@Getter
+@Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -40,6 +43,7 @@ public class User {
             joinColumns = {@JoinColumn(name = "usr_id")},
             inverseJoinColumns = {@JoinColumn(name = "favorit_id")}
     )
+    @ToString.Exclude
     private List<User> favorites = new ArrayList<>();
 
     @Getter(onMethod_ = @JsonIgnore)
@@ -50,12 +54,26 @@ public class User {
             joinColumns = {@JoinColumn(name = "favorit_id")},
             inverseJoinColumns = {@JoinColumn(name = "usr_id")}
     )
+    @ToString.Exclude
     private List<User> fans = new ArrayList<>();
 
    /* @Getter(onMethod_=@JsonIgnore)
     @Setter(onMethod_=@JsonIgnore)
     @OneToMany(mappedBy = "user")
     private List<Identifier> identifiers = new ArrayList<>();*/
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
+        User user = (User) o;
+        return userId == user.userId;
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
 }
 
 
