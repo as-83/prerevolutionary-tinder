@@ -53,6 +53,7 @@ public class SearchHandler implements Handler {
                 sendMessage.setText(NO_CANDIDATES);
                 return sendMessages;
             }
+
             User candidate = candidates.get(candidateIndex);
 
             String imageLocation = imageService.getImage(candidate.getDescription());
@@ -78,6 +79,7 @@ public class SearchHandler implements Handler {
             userService.addFavorite(currentUser.getTgId(), candidates.get(candidateIndex));
             candidates.remove(candidateIndex);
         }
+
         if (Callback.PREV_CANDIDATE.name().equals(message)) {
             candidateIndex++;
         }

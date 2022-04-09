@@ -28,11 +28,12 @@ import static ru.bis.client.bot.util.MessageCreator.createMessageTemplate;
 public class FavoritesHandler implements Handler {
 
     private static final String INCORRECT_COMMAND_MESSAGE = "Неверная команда!";
-    private static final String NO_FAVORITES = "Любимцевъ у Васъ н\u0462тъ";
+    private static final String NO_FAVORITES = "У Васъ н\u0462тъ любимцевъ";
     private final ImageService imageService;
     private final UserService userService;
     private final UsersCache usersCache;
     private static int favoriteIndex = 0;
+
     private List<UserAndStatus> fansAndFavorites = new ArrayList<>();
 
     public FavoritesHandler(ImageService imageService, UserService userService, UsersCache usersCache) {
@@ -51,6 +52,7 @@ public class FavoritesHandler implements Handler {
         sendMessages.add(sendMessage);
 
         if (user.getBotState() == BotState.SIGNUP) {
+
             if (fansAndFavorites.isEmpty() || userService.favoritesChanged(user.getTgId())) {
                 fansAndFavorites = usersCache.getFansAndFavorites(user.getTgId());
             }
@@ -58,8 +60,9 @@ public class FavoritesHandler implements Handler {
                 sendMessage.setText(NO_FAVORITES);
                 return sendMessages;
             }
+
+            handleCallback(message);
             UserAndStatus userAndStatus = fansAndFavorites.get(favoriteIndex);
-            updateCursor(message);
 
             String imageLocation = imageService.getImage(userAndStatus.getUser().getDescription());
             SendPhoto photoMessage = new SendPhoto(String.valueOf(user.getTgId()), new InputFile(new File(imageLocation)));
@@ -78,7 +81,7 @@ public class FavoritesHandler implements Handler {
         return sendMessages;
     }
 
-    private void updateCursor(String message) {
+    private void handleCallback(String message) {
         int maxIndex = fansAndFavorites.size();
         if (Callback.NEXT.name().equals(message)) {
             favoriteIndex++;

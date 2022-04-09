@@ -1,0 +1,75 @@
+23:43:23.081  1449 [main] INFO  ru.bis.server.Main - Starting Main using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 11088 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\server\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+23:43:23.085  1453 [main] INFO  ru.bis.server.Main - No active profile set, falling back to 1 default profile: "default"
+23:43:24.306  2674 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:43:24.413  2781 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+23:43:25.428  3796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:43:25.454  3822 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:43:25.455  3823 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:43:25.455  3823 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+23:43:25.640  4008 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:43:25.641  4009 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2372 ms
+23:43:25.883  4251 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:43:25.892  4260 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:43:26.398  4766 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:43:26.458  4826 [main] INFO  o.f.c.i.database.base.DatabaseType - Database: jdbc:postgresql://localhost/tinder_db (PostgreSQL 13.6)
+23:43:26.562  4930 [main] INFO  o.f.c.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.055s)
+23:43:26.571  4939 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 3
+23:43:26.571  4939 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+23:43:26.796  5164 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:43:26.894  5262 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+23:43:27.136  5504 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:43:27.327  5695 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+23:43:28.482  6850 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:43:28.495  6863 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:43:29.210  7578 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:43:29.683  8051 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:43:29.719  8087 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:43:29.733  8101 [main] INFO  ru.bis.server.Main - Started Main in 7.24 seconds (JVM running for 9.747)
+23:44:05.696  44064 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:44:05.696  44064 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:44:05.697  44065 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+23:44:05.768  44136 [http-nio-8080-exec-1] INFO  ru.bis.server.aop.LoggingAspect - Enter: ru.bis.server.controller.UserController.getUserFavorites() with argument[s] = [2]
+23:44:05.921  44289 [http-nio-8080-exec-1] INFO  ru.bis.server.aop.LoggingAspect - Exit: ru.bis.server.controller.UserController.getUserFavorites() with result = <200 OK OK,[],[]>
+23:46:26.440  184808 [http-nio-8080-exec-3] INFO  ru.bis.server.aop.LoggingAspect - Enter: ru.bis.server.controller.UserController.getUserFavorites() with argument[s] = [1]
+23:46:26.444  184812 [http-nio-8080-exec-3] INFO  ru.bis.server.aop.LoggingAspect - Exit: ru.bis.server.controller.UserController.getUserFavorites() with result = <200 OK OK,[User(userId=3, telegramId=3, name=Марфа, description=Красивая с русалочьими глазами, вся сотканная из нервов и оригинальности, зовет на праздник жизни интеллигентного, очень богатого господина, способного на сильное яркое чувство; цель — брак, sex=FEMALE, searchPreferences=MAIL), User(userId=4, telegramId=4, name=Екатерина, description=Только что кончившая гимназию девица желает выйти замуж за холостого или бездетного вдовца с состоянием. Возраста не стесняться, sex=FEMALE, searchPreferences=MAIL), User(userId=5, telegramId=5, name=Иннокентий, description=Вдовец 42 лет желает жениться на девушке „без прошлого“, образованной, знающей музыку и обладающей приятным голосом. Теща нежелательна, sex=MAIL, searchPreferences=ALL)],[]>
+23:46:51.994  210362 [http-nio-8080-exec-5] INFO  ru.bis.server.aop.LoggingAspect - Enter: ru.bis.server.controller.UserController.getUserFavorites() with argument[s] = [1]
+23:46:51.997  210365 [http-nio-8080-exec-5] INFO  ru.bis.server.aop.LoggingAspect - Exit: ru.bis.server.controller.UserController.getUserFavorites() with result = <200 OK OK,[User(userId=3, telegramId=3, name=Марфа, description=Красивая с русалочьими глазами, вся сотканная из нервов и оригинальности, зовет на праздник жизни интеллигентного, очень богатого господина, способного на сильное яркое чувство; цель — брак, sex=FEMALE, searchPreferences=MAIL), User(userId=4, telegramId=4, name=Екатерина, description=Только что кончившая гимназию девица желает выйти замуж за холостого или бездетного вдовца с состоянием. Возраста не стесняться, sex=FEMALE, searchPreferences=MAIL), User(userId=5, telegramId=5, name=Иннокентий, description=Вдовец 42 лет желает жениться на девушке „без прошлого“, образованной, знающей музыку и обладающей приятным голосом. Теща нежелательна, sex=MAIL, searchPreferences=ALL)],[]>
+23:47:37.584  255952 [http-nio-8080-exec-7] INFO  ru.bis.server.aop.LoggingAspect - Enter: ru.bis.server.controller.UserController.getUserFavorites() with argument[s] = [1]
+23:47:37.587  255955 [http-nio-8080-exec-7] INFO  ru.bis.server.aop.LoggingAspect - Exit: ru.bis.server.controller.UserController.getUserFavorites() with result = <200 OK OK,[User(userId=3, telegramId=3, name=Марфа, description=Красивая с русалочьими глазами, вся сотканная из нервов и оригинальности, зовет на праздник жизни интеллигентного, очень богатого господина, способного на сильное яркое чувство; цель — брак, sex=FEMALE, searchPreferences=MAIL), User(userId=4, telegramId=4, name=Екатерина, description=Только что кончившая гимназию девица желает выйти замуж за холостого или бездетного вдовца с состоянием. Возраста не стесняться, sex=FEMALE, searchPreferences=MAIL), User(userId=5, telegramId=5, name=Иннокентий, description=Вдовец 42 лет желает жениться на девушке „без прошлого“, образованной, знающей музыку и обладающей приятным голосом. Теща нежелательна, sex=MAIL, searchPreferences=ALL)],[]>
+23:49:24.594  362962 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:49:24.610  362978 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:49:24.615  362983 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:55:07.843  980  [main] INFO  ru.bis.server.Main - Starting Main using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 4284 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\server\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+23:55:07.846  983  [main] INFO  ru.bis.server.Main - No active profile set, falling back to 1 default profile: "default"
+23:55:08.729  1866 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:55:08.805  1942 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+23:55:09.558  2695 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:55:09.569  2706 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:55:09.570  2707 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:55:09.570  2707 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+23:55:09.739  2876 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:55:09.739  2876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1830 ms
+23:55:09.897  3034 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:55:09.904  3041 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:55:10.133  3270 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:55:10.166  3303 [main] INFO  o.f.c.i.database.base.DatabaseType - Database: jdbc:postgresql://localhost/tinder_db (PostgreSQL 13.6)
+23:55:10.219  3356 [main] INFO  o.f.c.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.031s)
+23:55:10.229  3366 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 3
+23:55:10.230  3367 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+23:55:10.372  3509 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:55:10.439  3576 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.33
+23:55:10.611  3748 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:55:10.769  3906 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+23:55:11.592  4729 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:55:11.604  4741 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:55:12.129  5266 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:55:12.540  5677 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:55:12.574  5711 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:55:12.588  5725 [main] INFO  ru.bis.server.Main - Started Main in 5.294 seconds (JVM running for 6.428)
+23:55:29.714  22851 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:55:29.714  22851 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:55:29.716  22853 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+23:55:29.756  22893 [http-nio-8080-exec-1] INFO  ru.bis.server.aop.LoggingAspect - Enter: ru.bis.server.controller.UserController.getUserFavorites() with argument[s] = [1]
+23:55:29.831  22968 [http-nio-8080-exec-1] INFO  ru.bis.server.aop.LoggingAspect - Exit: ru.bis.server.controller.UserController.getUserFavorites() with result = <200 OK OK,[User(userId=3, telegramId=3, name=Марфа, description=Красивая с русалочьими глазами, вся сотканная из нервов и оригинальности, зовет на праздник жизни интеллигентного, очень богатого господина, способного на сильное яркое чувство; цель — брак, sex=FEMALE, searchPreferences=MAIL), User(userId=4, telegramId=4, name=Екатерина, description=Только что кончившая гимназию девица желает выйти замуж за холостого или бездетного вдовца с состоянием. Возраста не стесняться, sex=FEMALE, searchPreferences=MAIL), User(userId=5, telegramId=5, name=Иннокентий, description=Вдовец 42 лет желает жениться на девушке „без прошлого“, образованной, знающей музыку и обладающей приятным голосом. Теща нежелательна, sex=MAIL, searchPreferences=ALL)],[]>
+23:55:51.126  44263 [http-nio-8080-exec-3] INFO  ru.bis.server.aop.LoggingAspect - Enter: ru.bis.server.controller.UserController.getUserFavorites() with argument[s] = [1]
+23:55:51.129  44266 [http-nio-8080-exec-3] INFO  ru.bis.server.aop.LoggingAspect - Exit: ru.bis.server.controller.UserController.getUserFavorites() with result = <200 OK OK,[User(userId=3, telegramId=3, name=Марфа, description=Красивая с русалочьими глазами, вся сотканная из нервов и оригинальности, зовет на праздник жизни интеллигентного, очень богатого господина, способного на сильное яркое чувство; цель — брак, sex=FEMALE, searchPreferences=MAIL), User(userId=4, telegramId=4, name=Екатерина, description=Только что кончившая гимназию девица желает выйти замуж за холостого или бездетного вдовца с состоянием. Возраста не стесняться, sex=FEMALE, searchPreferences=MAIL), User(userId=5, telegramId=5, name=Иннокентий, description=Вдовец 42 лет желает жениться на девушке „без прошлого“, образованной, знающей музыку и обладающей приятным голосом. Теща нежелательна, sex=MAIL, searchPreferences=ALL)],[]>

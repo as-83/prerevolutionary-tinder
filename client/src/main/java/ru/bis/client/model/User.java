@@ -1,5 +1,7 @@
 package ru.bis.client.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,19 +13,25 @@ import ru.bis.client.bot.BotState;
 @Getter
 @Setter
 public class User{
+    @JsonProperty(value = "userId")
     private long dbId;
 
+    @JsonProperty(value = "telegramId")
     private long tgId;
 
     private String name;
 
     private String description;
 
+    @JsonProperty(value = "sex")
     private Gender gender;
 
+    @JsonProperty(value = "searchPreferences")
     private Gender searchGender;
 
-    BotState botState;
+    @Getter(onMethod_ = @JsonIgnore)
+    @Setter(onMethod_ = @JsonIgnore)
+    private BotState botState;
 
     //private List<Long> favoritesId;//TODO
 

@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 public class UsersCache {
 
     private final UserService userService;
+
     private Map<Long, List<User>> usersFavorites = new ConcurrentHashMap<>();
     private Map<Long, List<User>> usersFans = new ConcurrentHashMap<>();
 

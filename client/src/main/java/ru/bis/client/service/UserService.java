@@ -32,11 +32,6 @@ public class UserService {
         users.remove(user.getTgId());
     }
 
-    public User getFansAndFavorites(User user, String message) {
-        return null;
-    }
-
-
     public List<User> getUserFavoritesByTgId(Long tgId) {
         if(!favorites.containsKey(tgId)) {
             return Collections.emptyList();
@@ -46,7 +41,6 @@ public class UserService {
     }
 
     public List<User> getUserFansByTgId(Long tgId) {
-
         return Collections.emptyList();
     }
 
