@@ -1,6 +1,6 @@
 package ru.bis.server.servise;
 
-import ru.bis.server.domain.User;
+import ru.bis.server.model.User;
 
 import java.util.List;
 import java.util.Optional;
