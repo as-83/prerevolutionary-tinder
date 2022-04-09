@@ -5,9 +5,9 @@ import org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import ru.bis.client.bot.BotState;
-import ru.bis.client.bot.model.Callback;
-import ru.bis.client.bot.model.User;
-import ru.bis.client.bot.service.UserService;
+import ru.bis.client.bot.Callback;
+import ru.bis.client.model.User;
+import ru.bis.client.service.UserService;
 import ru.bis.client.bot.util.ButtonCreator;
 
 import java.io.Serializable;

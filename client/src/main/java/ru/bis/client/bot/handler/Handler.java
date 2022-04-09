@@ -2,7 +2,7 @@ package ru.bis.client.bot.handler;
 
 import org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod;
 import ru.bis.client.bot.BotState;
-import ru.bis.client.bot.model.User;
+import ru.bis.client.model.User;
 
 import java.io.Serializable;
 import java.util.List;

@@ -8,10 +8,10 @@ import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import ru.bis.client.bot.BotState;
 import ru.bis.client.bot.UsersCache;
-import ru.bis.client.bot.model.Callback;
-import ru.bis.client.bot.model.User;
-import ru.bis.client.bot.service.ImageService;
-import ru.bis.client.bot.service.UserService;
+import ru.bis.client.bot.Callback;
+import ru.bis.client.model.User;
+import ru.bis.client.service.ImageService;
+import ru.bis.client.service.UserService;
 import ru.bis.client.bot.util.ButtonCreator;
 
 import java.io.File;
@@ -51,7 +51,7 @@ public class MainPaige implements Handler {
             sendPhoto.setCaption(user.getGender().getTitle() + ", " + user.getName());
             messagesList.clear();
             messagesList.add(sendPhoto);
-            List<Callback> callbacks = List.of(Callback.FAVORITES, Callback.USERS_SEARCH);
+            List<Callback> callbacks = List.of(Callback.FAVORITES, Callback.CANDIDATES);
             InlineKeyboardMarkup inlineKeyboardMarkup = ButtonCreator.create(callbacks);
             sendPhoto.setReplyMarkup(inlineKeyboardMarkup);
         }

@@ -1,11 +1,12 @@
 package ru.bis.client.bot;
 
 import org.springframework.stereotype.Component;
-import ru.bis.client.bot.model.User;
-import ru.bis.client.bot.service.UserService;
+import ru.bis.client.model.FanStatus;
+import ru.bis.client.model.User;
+import ru.bis.client.model.UserAndStatus;
+import ru.bis.client.service.UserService;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -17,7 +18,6 @@ public class UsersCache {
     private final UserService userService;
     private Map<Long, List<User>> usersFavorites = new ConcurrentHashMap<>();
     private Map<Long, List<User>> usersFans = new ConcurrentHashMap<>();
-    List<Map<User, String>> fansAndFavorites = new ArrayList<>();
 
     private Map<Long, Integer> favoritesIteratorPosition = new ConcurrentHashMap<>();
 
@@ -25,25 +25,26 @@ public class UsersCache {
         this.userService = userService;
     }
 
-    public List<Map<User, String>>  getFansAndFavorites(Long tgId) {
+    public List<UserAndStatus>  getFansAndFavorites(Long tgId) {
 
-        List<Map<User, String>> listMaps = new ArrayList<>();
+        List<UserAndStatus> userAndStatuses = new ArrayList<>();
         List<User> userFavorites = getUserFavorites(tgId);
         List<User> userFans = getUserFans(tgId);
+
         List<User> lovingEachOver = userFavorites.stream().filter(f -> userFans.stream().anyMatch(uf -> uf.getDbId() == f.getDbId()))
                 .collect(Collectors.toList());
 
         userFavorites.stream()
                 .filter(f -> lovingEachOver.stream().noneMatch(uf -> uf.getDbId() == f.getDbId()))
-                .forEach(e -> listMaps.add((Map<User, String>) new HashMap<>().put(e, "Любимцы")));
+                .forEach(e -> userAndStatuses.add(new UserAndStatus(e, FanStatus.FAVORITE)));
 
         userFans.stream()
                 .filter(f -> lovingEachOver.stream().noneMatch(uf -> uf.getDbId() == f.getDbId()))
-                .forEach(e -> listMaps.add((Map<User, String>) new HashMap<>().put(e, "Вы любимы")));
+                .forEach(e -> userAndStatuses.add(new UserAndStatus(e, FanStatus.FAN)));
 
-        lovingEachOver .forEach(e -> listMaps.add((Map<User, String>) new HashMap<>().put(e, "Взаимность")));
+        lovingEachOver .forEach(e -> userAndStatuses.add(new UserAndStatus(e, FanStatus.BOTH)));
 
-        return listMaps;
+        return userAndStatuses;
     }
 
 

@@ -1,4 +1,4 @@
-package ru.bis.client.bot.model;
+package ru.bis.client.bot;
 
 public enum Callback {
     FEMALE("Сударыня"),
@@ -9,9 +9,11 @@ public enum Callback {
     SUBSCRIBE("Да"),
     UNSUBSCRIBE("Нет"),
     FAVORITES("Любимци"),
-    USERS_SEARCH("Поиск"),
+    CANDIDATES("Поиск"),
     PREVIOUS("<-"),
     NEXT("->"),
+    PREV_CANDIDATE("<-"),
+    NEXT_CANDIDATE("->"),
     MENU("Меню");
 
     private final String title;

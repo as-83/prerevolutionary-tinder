@@ -1,4 +1,4 @@
-package ru.bis.client.bot.service;
+package ru.bis.client.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -32,10 +32,10 @@ public class ImageService {
             return imageCash.get(description);
         }
 
-        log.debug("Image creation started");
+        log.info("Image creation started");
 
         try {
-            String header = description.substring(0, description.indexOf(" "));
+            String header = description.contains(" ") ? description.substring(0, description.indexOf(" ")) : description;
 
 
             final BufferedImage image = ImageIO.read(new File(backgroundLocation));

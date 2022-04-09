@@ -2,8 +2,8 @@ package ru.bis.client.bot.util;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
-import ru.bis.client.bot.model.Callback;
-import ru.bis.client.bot.model.User;
+import ru.bis.client.bot.Callback;
+import ru.bis.client.model.User;
 
 public class MessageCreator {
     public static SendMessage createMessageTemplate(User user) {

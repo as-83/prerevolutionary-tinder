@@ -1,4 +1,4 @@
-package ru.bis.client.bot;
+package ru.bis.client.bot.handler;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -6,10 +6,9 @@ import org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod;
 import org.telegram.telegrambots.meta.api.objects.CallbackQuery;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import ru.bis.client.bot.handler.Handler;
-import ru.bis.client.bot.handler.IncorrectMessageHandler;
-import ru.bis.client.bot.model.User;
-import ru.bis.client.bot.service.UserService;
+import ru.bis.client.bot.BotState;
+import ru.bis.client.model.User;
+import ru.bis.client.service.UserService;
 
 import java.io.Serializable;
 import java.util.Collections;

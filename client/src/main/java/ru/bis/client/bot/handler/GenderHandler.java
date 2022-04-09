@@ -4,10 +4,10 @@ import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import ru.bis.client.bot.BotState;
-import ru.bis.client.bot.model.Callback;
-import ru.bis.client.bot.model.Gender;
-import ru.bis.client.bot.model.User;
-import ru.bis.client.bot.service.UserService;
+import ru.bis.client.bot.Callback;
+import ru.bis.client.model.Gender;
+import ru.bis.client.model.User;
+import ru.bis.client.service.UserService;
 
 import java.io.Serializable;
 import java.util.List;

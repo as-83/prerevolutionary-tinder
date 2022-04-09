@@ -1,4 +1,4 @@
-package ru.bis.client.bot.model;
+package ru.bis.client.model;
 
 public enum Gender {
     MAIL("Сударъ"),
