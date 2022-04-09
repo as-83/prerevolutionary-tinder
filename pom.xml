@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
     <name>tinder</name>
 
-
     <modules>
         <module>server</module>
         <module>client</module>
