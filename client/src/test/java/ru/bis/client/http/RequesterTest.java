@@ -9,6 +9,7 @@ import ru.bis.client.model.User;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
@@ -27,15 +28,40 @@ class RequesterTest {
     }
 
     @Test
-    public void getUserFavorites() {
+    public void getUserFavoritesReturnsListThenUserHasFavorites() {
         List<User> fans =  requester.getFavorites(1);
         assertThat(fans).isNotEmpty();
     }
 
     @Test
-    public void getUserFans() {
+    public void getUserFavoritesReturnsEmptyListThenUserHasNotFavorites() {
+        List<User> fans =  requester.getFavorites(2);
+        assertThat(fans).isEmpty();
+    }
+
+    @Test
+    public void getUserFansReturnsListThenUserHasFans() {
         List<User> fans =  requester.getFans(1);
         assertThat(fans).isNotEmpty();
+    }
+
+    @Test
+    public void getUserFansReturnsEmptyListThenUserHasNotFans() {
+        List<User> fans =  requester.getFans(6);
+        assertThat(fans).isEmpty();
+    }
+
+
+    @Test
+    void getUserByTgIdReturnsUserThenExists() {
+        Optional<User> optionalUser = requester.getUserByTgId(2L);
+        assertThat(optionalUser.get()).hasFieldOrPropertyWithValue("tgId", 2L);
+    }
+
+    @Test
+    void getUserByTgIdReturnsUserThenNotExists() {
+        Optional<User> optionalUser = requester.getUserByTgId(2222L);
+        assertThat(optionalUser.isPresent()).isFalse();
     }
 
 

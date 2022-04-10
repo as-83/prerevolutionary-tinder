@@ -71,6 +71,23 @@ public class Requester {
                 .block();
     }
 
+    /**
+     * Получение списка пользователей у которых взаимные лайки с текущим пользователем
+     *
+     * @param id - id активного пользователя
+     * @return список взаимностей
+     */
+    public Optional<User> getUserByTgId(long id) {
+        return webClient.get()
+                .uri(uriBuilder -> uriBuilder.path(GET_USER_BY_ID_URI)
+                        .build(id))
+                .retrieve()
+                .bodyToMono(User.class)
+                .onErrorResume(WebClientResponseException.class,
+                        ex -> ex.getRawStatusCode() == 404 ? Mono.empty() : Mono.error(ex))
+                .blockOptional();
+    }
+
 
     /**
      * Добавление нового пользователя

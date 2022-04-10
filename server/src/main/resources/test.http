@@ -10,10 +10,11 @@ Content-Type: application/x-www-form-urlencoded
 userId=1&favoriteId=16
 
 ###
-POST http://localhost:8080/api/users/2
+POST http://localhost:8080/api/users
 Content-Type: application/json
 
 {
+  "tgId": 11,
   "name": "Марфа",
   "description": "Ищу приличного сцаря",
   "sex": "FEMALE",
@@ -25,7 +26,7 @@ GET http://localhost:8080/api/users
 Accept: application/json
 
 ###Exists
-GET http://localhost:8080/api/users/11111
+GET http://localhost:8080/api/users/2
 Accept: application/json
 
 ###Dont exist

@@ -51,9 +51,9 @@ public class UserController {
         return new ResponseEntity<>(fans, HttpStatus.OK);
     }
 
-    @PostMapping("/users/{id}")
-    public ResponseEntity<User> addUser(@RequestBody User user, @PathVariable long id) {
-        user.setTelegramId(id);
+    @PostMapping("/users")
+    public ResponseEntity<User> addUser(@RequestBody User user/*, @PathVariable long id*/) {
+        //user.setTelegramId(id);
         HttpStatus httpStatus = HttpStatus.CREATED;
         User newUser = service.addUser(user);
         if (newUser == null) {
@@ -63,7 +63,7 @@ public class UserController {
         return new ResponseEntity<>(newUser, httpStatus);
     }
 
-    @PostMapping("/users")
+    @PostMapping("/users/favorite")
     public ResponseEntity<User> addFavorite(@RequestParam long userId,
                                             @RequestParam long favoriteId) {
         HttpStatus httpStatus = HttpStatus.OK;

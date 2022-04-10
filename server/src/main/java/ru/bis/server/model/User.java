@@ -19,12 +19,11 @@ public class User {
 
     @Id
     @Column(name = "user_id")
-    @SequenceGenerator(name = "usrIdSeq", sequenceName = "usr_id_seq", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "usrIdSeq")
+    //@SequenceGenerator(name = "usrIdSeq", sequenceName = "usr_id_seq", allocationSize = 1)
+    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "usrIdSeq")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long userId;
 
-    @Getter(onMethod_ = @JsonIgnore)
-    @Setter(onMethod_ = @JsonIgnore)
     private long telegramId;
 
     private String name;
@@ -56,11 +55,6 @@ public class User {
     )
     @ToString.Exclude
     private List<User> fans = new ArrayList<>();
-
-   /* @Getter(onMethod_=@JsonIgnore)
-    @Setter(onMethod_=@JsonIgnore)
-    @OneToMany(mappedBy = "user")
-    private List<Identifier> identifiers = new ArrayList<>();*/
 
     @Override
     public boolean equals(Object o) {
