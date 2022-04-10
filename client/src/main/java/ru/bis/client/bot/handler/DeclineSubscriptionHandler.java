@@ -28,7 +28,7 @@ public class DeclineSubscriptionHandler implements Handler {
     public List<PartialBotApiMethod<? extends Serializable>> handle(User user, String message) {
         String messageText = COMMAND_ORDER_ERROR_MESSAGE;
 
-        if (BotState.SIGNUP == user.getBotState()) {
+        if (BotState.TRY_TO_SIGN == user.getBotState()) {
             user.setBotState(BotState.START);
             userService.remove(user);
             messageText = user.getGender().getTitle() + DECLINE_SUBSCRIPTION_MESSAGE;

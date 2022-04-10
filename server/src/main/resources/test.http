@@ -1,10 +1,10 @@
-POST http://localhost:8080/api/users
+POST http://localhost:8080/api/users/favorite
 Content-Type: application/x-www-form-urlencoded
 
-userId=16&favoriteId=1
+userId=3&favoriteId=4
 
 ###
-POST http://localhost:8080/api/users
+POST http://localhost:8080/api/users/favorite
 Content-Type: application/x-www-form-urlencoded
 
 userId=1&favoriteId=16
@@ -14,7 +14,7 @@ POST http://localhost:8080/api/users
 Content-Type: application/json
 
 {
-  "tgId": 11,
+  "telegramId": 11,
   "name": "Марфа",
   "description": "Ищу приличного сцаря",
   "sex": "FEMALE",
@@ -42,7 +42,7 @@ GET http://localhost:8080/api/favorites/1
 Accept: application/json
 
 ###
-GET http://localhost:8080/api/favorites/22
+GET http://localhost:8080/api/favorites/736511947
 Accept: application/json
 
 ###

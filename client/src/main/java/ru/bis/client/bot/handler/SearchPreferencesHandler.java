@@ -42,7 +42,7 @@ public class SearchPreferencesHandler implements Handler {
             InlineKeyboardMarkup inlineKeyboardMarkup = ButtonCreator.create(callbacks);
             sendMessage.setReplyMarkup(inlineKeyboardMarkup);
             messageText = user.getGender().getTitle() + SUBSCRIPTION_MESSAGE;
-            user.setBotState(BotState.SIGNUP);
+            user.setBotState(BotState.TRY_TO_SIGN);
             userService.save(user);
         }
 

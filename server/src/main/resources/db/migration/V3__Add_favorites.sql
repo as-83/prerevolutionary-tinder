@@ -1,4 +1,4 @@
-INSERT INTO user_user(usr_id, favorit_id)
+INSERT INTO tinder.user_user(usr_id, favorit_id)
 values  (1, 3),
         (1, 4),
         (1, 5),

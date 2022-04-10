@@ -30,13 +30,15 @@ public class NameHandler implements Handler {
 
     @Override
     public List<PartialBotApiMethod<? extends Serializable>> handle(User user, String message) {
+
         SendMessage sendMessage = createMessageTemplate(user);
         String messageText = COMMAND_ORDER_ERROR_MESSAGE;
+
         if (user.getBotState() == operatedBotState()) {
             user.setBotState(BotState.GENDER);
             user.setName(message);
             userService.save(user);
-            // кнопки
+
             List<Callback> callbacks = List.of(Callback.MAIL, Callback.FEMALE);
             InlineKeyboardMarkup inlineKeyboardMarkup = ButtonCreator.create(callbacks);
             sendMessage.setReplyMarkup(inlineKeyboardMarkup);

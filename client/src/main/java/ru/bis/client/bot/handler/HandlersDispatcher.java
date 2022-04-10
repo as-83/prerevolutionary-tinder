@@ -16,7 +16,7 @@ import java.util.List;
 @Slf4j
 @Component
 public class HandlersDispatcher {
-    // Храним доступные хендлеры в списке
+    // доступные хендлеры
     private final List<Handler> handlers;
     private final IncorrectMessageHandler incorrectMessageHandler;
 
@@ -35,22 +35,22 @@ public class HandlersDispatcher {
                 final Message message = update.getMessage();
                 final long userTgId = message.getFrom().getId();
                 log.info(message.getText() + " from user " + message.getFrom().getUserName());
-                final User user = userService.getUserById(userTgId);//TODO
 
+                final User user = userService.getUserByTgId(userTgId);//TODO
 
                 return getHandlerByState(user.getBotState()).handle(user, message.getText());
 
             } else if (update.hasCallbackQuery()) {
                 final CallbackQuery callbackQuery = update.getCallbackQuery();
                 final long userTgId = callbackQuery.getFrom().getId();
-                final User user = userService.getUserById(userTgId);//TODO
+                final User user = userService.getUserByTgId(userTgId);//TODO
                 log.info(callbackQuery.getData() + " from user " + callbackQuery.getFrom().getUserName());
                 return getHandlerByCallBackQuery(callbackQuery.getData()).handle(user, callbackQuery.getData());
             }
 
             throw new UnsupportedOperationException();
         } catch (UnsupportedOperationException e) {
-            return Collections.emptyList();
+            return incorrectMessageHandler.handle(new User(), "" );
         }
     }
 

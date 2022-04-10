@@ -7,7 +7,6 @@ import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import ru.bis.client.bot.BotState;
-import ru.bis.client.bot.UsersCache;
 import ru.bis.client.bot.Callback;
 import ru.bis.client.model.User;
 import ru.bis.client.service.ImageService;
@@ -26,12 +25,10 @@ public class MainPaige implements Handler {
 
     public static final String COMMAND_ORDER_ERROR_MESSAGE = "Данная команда не уместна в данный моментъ!";
     private final UserService userService;
-    private final UsersCache usersCache;
     private final ImageService imageService;
 
-    public MainPaige(UserService userService, UsersCache usersCache, ImageService imageService) {
+    public MainPaige(UserService userService, ImageService imageService) {
         this.userService = userService;
-        this.usersCache = usersCache;
         this.imageService = imageService;
     }
 
@@ -43,14 +40,19 @@ public class MainPaige implements Handler {
         List<PartialBotApiMethod<? extends Serializable>> messagesList = new ArrayList<>();
         messagesList.add(userProfile);
 
+        if (BotState.TRY_TO_SIGN == user.getBotState()) {
+            user.setBotState(BotState.SIGNUP);
+            userService.save(user);
+        }
+
         if (BotState.SIGNUP == user.getBotState()) {
-            messageText = user.toString();
 
             String imageLocation = imageService.getImage(user.getDescription());
             SendPhoto sendPhoto = new SendPhoto(String.valueOf(user.getTgId()), new InputFile(new File(imageLocation)));
             sendPhoto.setCaption(user.getGender().getTitle() + ", " + user.getName());
             messagesList.clear();
             messagesList.add(sendPhoto);
+
             List<Callback> callbacks = List.of(Callback.FAVORITES, Callback.CANDIDATES);
             InlineKeyboardMarkup inlineKeyboardMarkup = ButtonCreator.create(callbacks);
             sendPhoto.setReplyMarkup(inlineKeyboardMarkup);

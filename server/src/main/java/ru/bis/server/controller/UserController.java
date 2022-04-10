@@ -13,7 +13,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api")
 public class UserController {
-    private UserService service;
+    private final UserService service;
 
     @Autowired
     public UserController(UserService service) {
@@ -27,14 +27,26 @@ public class UserController {
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 
+    @PostMapping("/users")
+    public ResponseEntity<User> addUser(@RequestBody User user/*, @PathVariable long id*/) {
+
+        HttpStatus httpStatus = HttpStatus.CREATED;
+        User newUser = service.addUser(user);
+        if (newUser == null) {
+            newUser = new User();
+            httpStatus = HttpStatus.BAD_REQUEST;
+        }
+        return new ResponseEntity<>(newUser, httpStatus);
+    }
+
     @GetMapping("/users")
     public ResponseEntity<List<User>> getAllUsers() {
         List<User> users = service.getAllUsers();
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 
-    @GetMapping("/users/find/{id}")
-    public ResponseEntity<List<User>> searchUsers(@PathVariable long id) {
+    @GetMapping("/users/{id}/candidates")
+    public ResponseEntity<List<User>> getCandidates(@PathVariable long id) {
         List<User> users = service.searchUsers(id);
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
@@ -51,27 +63,17 @@ public class UserController {
         return new ResponseEntity<>(fans, HttpStatus.OK);
     }
 
-    @PostMapping("/users")
-    public ResponseEntity<User> addUser(@RequestBody User user/*, @PathVariable long id*/) {
-        //user.setTelegramId(id);
-        HttpStatus httpStatus = HttpStatus.CREATED;
-        User newUser = service.addUser(user);
-        if (newUser == null) {
-            newUser = new User();
-            httpStatus = HttpStatus.BAD_REQUEST;
-        }
-        return new ResponseEntity<>(newUser, httpStatus);
-    }
-
     @PostMapping("/users/favorite")
-    public ResponseEntity<User> addFavorite(@RequestParam long userId,
+    public ResponseEntity<Boolean> addFavorite(@RequestParam long userId,
                                             @RequestParam long favoriteId) {
         HttpStatus httpStatus = HttpStatus.OK;
+        boolean result = true;
 
         if (!service.addFavorite(userId, favoriteId)) {
             httpStatus = HttpStatus.BAD_REQUEST;
+            result = false;
         }
-        return new ResponseEntity<>(httpStatus);
+        return new ResponseEntity<>(result, httpStatus);
     }
 
 

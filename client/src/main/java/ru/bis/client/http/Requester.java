@@ -1,6 +1,9 @@
 package ru.bis.client.http;
 
 import org.springframework.stereotype.Service;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
+import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
 import reactor.core.publisher.Mono;
@@ -55,27 +58,12 @@ public class Requester {
                 .block();
     }
 
-    /**
-     * Получение списка пользователей у которых взаимные лайки с текущим пользователем
-     *
-     * @param id - id активного пользователя
-     * @return список взаимностей
-     */
-    public List<User> getLovingEachOver(long id) {
-        return webClient.get()
-                .uri(uriBuilder -> uriBuilder.path(GET_LOVING_EACH_OVER_URI)
-                        .build(id))
-                .retrieve()
-                .bodyToFlux(User.class)
-                .collectList()
-                .block();
-    }
 
     /**
-     * Получение списка пользователей у которых взаимные лайки с текущим пользователем
      *
-     * @param id - id активного пользователя
-     * @return список взаимностей
+     *
+     * @param
+     * @return
      */
     public Optional<User> getUserByTgId(long id) {
         return webClient.get()
@@ -90,12 +78,12 @@ public class Requester {
 
 
     /**
-     * Добавление нового пользователя
+     * Сохранение нового пользователя
      *
      * @param user - профиль нового пользователя
      * @return опционального пользователя при успешной регистрации или Optional.empty() при ошибке
      */
-    public Optional<User> registerNewUser(User user) {
+    public User registerNewUser(User user) {
         return webClient.post()
                 .uri(uriBuilder -> uriBuilder.path(MAIN_URI)
                         .build())
@@ -105,18 +93,31 @@ public class Requester {
                 .bodyToMono(User.class)
                 .onErrorResume(WebClientResponseException.class,
                         ex -> ex.getRawStatusCode() == 404 ? Mono.empty() : Mono.error(ex))
-                .blockOptional();
+                .block();
     }
 
 
     /**
      * Лайк
-     *
-     * @param usersIdFrom - id поставившего лайк
+     *  @param usersIdFrom - id поставившего лайк
      * @param userIdTo - id кому поставили лайк
+     * @return
      */
-    public void sendLikeRequest(long usersIdFrom, long userIdTo) {
+    public Optional<Boolean> sendLikeRequest(long usersIdFrom, long userIdTo) {
+        MultiValueMap<String, String> bodyValues = new LinkedMultiValueMap<>();
 
+        bodyValues.add("userId", String.valueOf(usersIdFrom));
+        bodyValues.add("favoriteId", String.valueOf(userIdTo));
+        return webClient.post()
+                .uri(uriBuilder -> uriBuilder.path(LIKE_URI)
+                        .build())
+                .header(CONTENT_TYPE, APPLICATION_JSON_VALUE)
+                .body(BodyInserters.fromFormData(bodyValues))
+                .retrieve()
+                .bodyToMono(Boolean.class)
+                .onErrorResume(WebClientResponseException.class,
+                        ex -> ex.getRawStatusCode() == 200 ? Mono.empty() : Mono.error(ex))
+                .blockOptional();
     }
 
     /**
@@ -155,4 +156,14 @@ public class Requester {
 
     }
 
+    public List<User> getCandidates(long tgId) {
+        return webClient.get()
+                .uri(uriBuilder -> uriBuilder.path(GET_CANDIDATES_URI)
+                        .build(tgId))
+                .retrieve()
+                .bodyToFlux(User.class)
+                .collectList()
+                .block();
+
+    }
 }

@@ -14,14 +14,12 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "usr")
+@Table(name = "usr", schema = "tinder")
 public class User {
 
     @Id
     @Column(name = "user_id")
-    //@SequenceGenerator(name = "usrIdSeq", sequenceName = "usr_id_seq", allocationSize = 1)
-    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "usrIdSeq")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long userId;
 
     private long telegramId;
@@ -38,6 +36,7 @@ public class User {
     @Setter(onMethod_ = @JsonIgnore)
     @ManyToMany
     @JoinTable(
+            schema = "tinder",
             name = "user_user",
             joinColumns = {@JoinColumn(name = "usr_id")},
             inverseJoinColumns = {@JoinColumn(name = "favorit_id")}
@@ -49,6 +48,7 @@ public class User {
     @Setter(onMethod_ = @JsonIgnore)
     @ManyToMany
     @JoinTable(
+            schema = "tinder",
             name = "user_user",
             joinColumns = {@JoinColumn(name = "favorit_id")},
             inverseJoinColumns = {@JoinColumn(name = "usr_id")}

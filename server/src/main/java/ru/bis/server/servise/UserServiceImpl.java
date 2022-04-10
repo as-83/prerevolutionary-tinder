@@ -6,6 +6,7 @@ import ru.bis.server.model.Sex;
 import ru.bis.server.model.User;
 import ru.bis.server.repo.UserRepo;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -25,9 +26,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> getUsersFavorites(long id) {
-        User user = userRepo.findById(id).orElse(new User());
-        return user.getFavorites();
+    public List<User> getUsersFavorites(long tgId) {
+        Optional<User> optionalUser = userRepo.getByTelegramId(tgId);
+        if (optionalUser.isPresent()) {
+            return optionalUser.get().getFavorites();
+        }
+        return Collections.emptyList();
     }
 
     @Override
@@ -47,20 +51,25 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<User> searchUsers(long searcherId) {
-        User currentUser = userRepo.getById(searcherId);
+    public List<User> searchUsers(long tgId) {
+        Optional<User> optionalUser = userRepo.getByTelegramId(tgId);
+        if (!optionalUser.isPresent()) {
+            return Collections.emptyList();
+        }
+        User currentUser = optionalUser.get();
         return userRepo.findAll().stream()
-                .filter(u -> u.getUserId() != searcherId)
-                .filter(u -> u.getFans().stream().noneMatch(f -> f.getUserId() == searcherId))
+                .filter(u -> u.getTelegramId() != tgId)
+                .filter(u -> u.getFans().stream().noneMatch(f -> f.getTelegramId()== tgId))
                 .filter(u -> u.getSearchPreferences().equals(currentUser.getSex()) || u.getSearchPreferences().equals(Sex.ALL))
                 .filter(u -> u.getSex().equals(currentUser.getSearchPreferences()) || currentUser.getSearchPreferences().equals(Sex.ALL))
                 .collect(Collectors.toList());
     }
 
     @Override
-    public boolean addFavorite(long userId, long favoriteId) {
-        User user = userRepo.getById(userId);
-        User favorite = userRepo.getById(favoriteId);
+    public boolean addFavorite(long userTgId, long favoriteTgId) {
+        User user = userRepo.getByTelegramId(userTgId).get();
+        User favorite = userRepo.getByTelegramId(favoriteTgId).get();
+
         user.getFavorites().add(favorite);
 
         return userRepo.save(user) != null;

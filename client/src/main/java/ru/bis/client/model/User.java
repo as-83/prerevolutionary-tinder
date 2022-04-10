@@ -33,6 +33,20 @@ public class User{
     @Setter(onMethod_ = @JsonIgnore)
     private BotState botState;
 
+    public User(long tgId, String name, String description, Gender gender, Gender searchGender, BotState botState) {
+        this.tgId = tgId;
+        this.name = name;
+        this.description = description;
+        this.gender = gender;
+        this.searchGender = searchGender;
+        this.botState = botState;
+    }
+
+    public User(long tgId, BotState botState) {
+        this.tgId = tgId;
+        this.botState = botState;
+    }
+
     //private List<Long> favoritesId;//TODO
 
    // private List<Long> fansId;//TODO

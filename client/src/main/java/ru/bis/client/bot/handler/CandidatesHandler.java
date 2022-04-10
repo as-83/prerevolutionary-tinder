@@ -23,7 +23,7 @@ import static ru.bis.client.bot.util.MessageCreator.createMessageTemplate;
 
 @Slf4j
 @Component
-public class SearchHandler implements Handler {
+public class CandidatesHandler implements Handler {
 
     private static final String NO_CANDIDATES = "Подходящихъ кандадатуръ н\u0462тъ";
     private final ImageService imageService;
@@ -32,7 +32,7 @@ public class SearchHandler implements Handler {
 
     private List<User> candidates = new ArrayList<>();
 
-    public SearchHandler(ImageService imageService, UserService userService) {
+    public CandidatesHandler(ImageService imageService, UserService userService) {
         this.imageService = imageService;
         this.userService = userService;
     }

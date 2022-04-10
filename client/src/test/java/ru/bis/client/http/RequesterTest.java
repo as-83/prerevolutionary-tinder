@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.client.WebClient;
+import ru.bis.client.bot.BotState;
+import ru.bis.client.model.Gender;
 import ru.bis.client.model.User;
 
 import java.util.Collections;
@@ -59,10 +61,23 @@ class RequesterTest {
     }
 
     @Test
-    void getUserByTgIdReturnsUserThenNotExists() {
+    void getUserByTgIdReturnsEmptyThenNotExists() {
         Optional<User> optionalUser = requester.getUserByTgId(2222L);
         assertThat(optionalUser.isPresent()).isFalse();
     }
 
+    @Test
+    void addUserReturnsUserWithDbId() {
+        User newUser = new User(15, "Герасим", "Ищу собачку, которая не тонет", Gender.MAIL, Gender.ALL, BotState.SIGNUP);
+        User user = requester.registerNewUser(newUser);
+        assertThat(user.getDbId()).isGreaterThan(10);
+    }
 
+    @Test
+    void sendLikeRequestReturnsTrueIfLikeSaved() {
+        Optional<Boolean> isLikeSaved = requester.sendLikeRequest(3, 4);
+
+        assertThat(isLikeSaved.isPresent()).isTrue();
+        assertThat(isLikeSaved.get()).isTrue();
+    }
 }

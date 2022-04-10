@@ -1,0 +1,1 @@
+ALTER SEQUENCE IF EXISTS hibernate_sequence START with 11;

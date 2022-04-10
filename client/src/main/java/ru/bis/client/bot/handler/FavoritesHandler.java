@@ -8,7 +8,6 @@ import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import ru.bis.client.bot.BotState;
-import ru.bis.client.bot.UsersCache;
 import ru.bis.client.bot.Callback;
 import ru.bis.client.model.User;
 import ru.bis.client.model.UserAndStatus;
@@ -31,31 +30,28 @@ public class FavoritesHandler implements Handler {
     private static final String NO_FAVORITES = "У Васъ н\u0462тъ любимцевъ";
     private final ImageService imageService;
     private final UserService userService;
-    private final UsersCache usersCache;
-    private static int favoriteIndex = 0;
+    private static int favoriteIndex = 0;//TODO
 
-    private List<UserAndStatus> fansAndFavorites = new ArrayList<>();
+    private List<UserAndStatus> fansAndFavorites = new ArrayList<>();//TODO
 
-    public FavoritesHandler(ImageService imageService, UserService userService, UsersCache usersCache) {
+    public FavoritesHandler(ImageService imageService, UserService userService) {
         this.imageService = imageService;
         this.userService = userService;
-        this.usersCache = usersCache;
     }
 
     @Override
     public List<PartialBotApiMethod<? extends Serializable>> handle(User user, String message) {
 
-
-        String messageText = INCORRECT_COMMAND_MESSAGE;
         SendMessage sendMessage = createMessageTemplate(user);
         List<PartialBotApiMethod<? extends Serializable>> sendMessages = new ArrayList<>();
         sendMessages.add(sendMessage);
 
         if (user.getBotState() == BotState.SIGNUP) {
 
-            if (fansAndFavorites.isEmpty() || userService.favoritesChanged(user.getTgId())) {
-                fansAndFavorites = usersCache.getFansAndFavorites(user.getTgId());
+            if (fansAndFavorites.isEmpty() || userService.isFansAndFavsChanged(user.getTgId())) {//TODO update fansAndFavorites if changed
+                fansAndFavorites = userService.getFansAndFavorites(user.getTgId());
             }
+
             if (fansAndFavorites.isEmpty()) {
                 sendMessage.setText(NO_FAVORITES);
                 return sendMessages;

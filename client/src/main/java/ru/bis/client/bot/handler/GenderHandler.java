@@ -38,10 +38,10 @@ public class GenderHandler implements Handler {
             messageText = user.getGender().getTitle() + DESCRIPTION_MESSAGE;
         }
 
-        SendMessage welcomeMessage = createMessageTemplate(user);
-        welcomeMessage.setText(messageText);
+        SendMessage sendMessage = createMessageTemplate(user);
+        sendMessage.setText(messageText);
 
-        return List.of(welcomeMessage);
+        return List.of(sendMessage);
     }
 
     @Override
