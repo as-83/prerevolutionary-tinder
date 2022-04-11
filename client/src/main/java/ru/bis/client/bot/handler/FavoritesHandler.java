@@ -9,34 +9,39 @@ import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import ru.bis.client.bot.BotState;
 import ru.bis.client.bot.Callback;
+import ru.bis.client.bot.util.ButtonCreator;
+import ru.bis.client.model.FanStatus;
+import ru.bis.client.model.Gender;
 import ru.bis.client.model.User;
 import ru.bis.client.model.UserAndStatus;
 import ru.bis.client.service.ImageService;
+import ru.bis.client.service.ModernToSlavishTranslator;
 import ru.bis.client.service.UserService;
-import ru.bis.client.bot.util.ButtonCreator;
 
 import java.io.File;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import static ru.bis.client.bot.handler.MainPaige.IMAGE_CREATION_ERROR;
 import static ru.bis.client.bot.util.MessageCreator.createMessageTemplate;
 
 @Slf4j
 @Component
 public class FavoritesHandler implements Handler {
 
-    private static final String INCORRECT_COMMAND_MESSAGE = "Неверная команда!";
     private static final String NO_FAVORITES = "У Васъ н\u0462тъ любимцевъ";
     private final ImageService imageService;
     private final UserService userService;
+    private final ModernToSlavishTranslator modernToSlavishTranslator;
     private static int favoriteIndex = 0;//TODO
 
     private List<UserAndStatus> fansAndFavorites = new ArrayList<>();//TODO
 
-    public FavoritesHandler(ImageService imageService, UserService userService) {
+    public FavoritesHandler(ImageService imageService, UserService userService, ModernToSlavishTranslator modernToSlavishTranslator) {
         this.imageService = imageService;
         this.userService = userService;
+        this.modernToSlavishTranslator = modernToSlavishTranslator;
     }
 
     @Override
@@ -59,12 +64,15 @@ public class FavoritesHandler implements Handler {
 
             handleCallback(message);
             UserAndStatus userAndStatus = fansAndFavorites.get(favoriteIndex);
+            String translatedDescription = modernToSlavishTranslator.translate(userAndStatus.getUser().getDescription());
+            File imageFile = imageService.getImage(translatedDescription);
+            SendPhoto photoMessage = new SendPhoto(String.valueOf(user.getTgId()), new InputFile(imageFile));
+            if (imageFile == null) {
+                sendMessage.setText(IMAGE_CREATION_ERROR);
+                return sendMessages;
+            }
 
-            String imageLocation = imageService.getImage(userAndStatus.getUser().getDescription());
-            SendPhoto photoMessage = new SendPhoto(String.valueOf(user.getTgId()), new InputFile(new File(imageLocation)));
-
-            photoMessage.setCaption(userAndStatus.getUser().getGender().getTitle()
-                    + ", " + userAndStatus.getStatus().getTitle());
+            photoMessage.setCaption(createCaption(userAndStatus));
 
             List<Callback> callbacks = List.of(Callback.PREVIOUS, Callback.MENU, Callback.NEXT);
             InlineKeyboardMarkup inlineKeyboardMarkup = ButtonCreator.create(callbacks);
@@ -75,6 +83,17 @@ public class FavoritesHandler implements Handler {
         }
 
         return sendMessages;
+    }
+
+    private String createCaption(UserAndStatus userAndStatus) {
+        String status = userAndStatus.getStatus().getTitle();
+        User user = userAndStatus.getUser();
+
+        if (userAndStatus.getStatus() == FanStatus.FAVORITE && user.getGender() == Gender.FEMALE) {
+            status = "Любима Вами";
+        }
+        return user.getGender().getTitle() + ", " + user.getName() + ". " + status;
+
     }
 
     private void handleCallback(String message) {
@@ -100,6 +119,9 @@ public class FavoritesHandler implements Handler {
 
     @Override
     public List<String> operatedCallBackQuery() {
-        return List.of(Callback.FAVORITES.name(), Callback.NEXT.name(), Callback.PREVIOUS.name());
+        return List.of(
+                Callback.FAVORITES.name(),
+                Callback.NEXT.name(),
+                Callback.PREVIOUS.name());
     }
 }

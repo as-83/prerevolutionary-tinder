@@ -12,6 +12,7 @@ import ru.bis.client.bot.Callback;
 import ru.bis.client.bot.util.ButtonCreator;
 import ru.bis.client.model.User;
 import ru.bis.client.service.ImageService;
+import ru.bis.client.service.ModernToSlavishTranslator;
 import ru.bis.client.service.UserService;
 
 import java.io.File;
@@ -19,6 +20,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import static ru.bis.client.bot.handler.MainPaige.IMAGE_CREATION_ERROR;
 import static ru.bis.client.bot.util.MessageCreator.createMessageTemplate;
 
 @Slf4j
@@ -28,13 +30,15 @@ public class CandidatesHandler implements Handler {
     private static final String NO_CANDIDATES = "Подходящихъ кандадатуръ н\u0462тъ";
     private final ImageService imageService;
     private final UserService userService;
+    private final ModernToSlavishTranslator modernToSlavishTranslator;
     private static int candidateIndex = 0;
 
     private List<User> candidates = new ArrayList<>();
 
-    public CandidatesHandler(ImageService imageService, UserService userService) {
+    public CandidatesHandler(ImageService imageService, UserService userService, ModernToSlavishTranslator modernToSlavishTranslator) {
         this.imageService = imageService;
         this.userService = userService;
+        this.modernToSlavishTranslator = modernToSlavishTranslator;
     }
 
     @Override
@@ -55,10 +59,14 @@ public class CandidatesHandler implements Handler {
             }
 
             User candidate = candidates.get(candidateIndex);
+            String translatedDescription = modernToSlavishTranslator.translate(candidate.getDescription());
+            File imageLocation = imageService.getImage(translatedDescription);
+            SendPhoto photoMessage = new SendPhoto(String.valueOf(user.getTgId()), new InputFile(imageLocation));
 
-            String imageLocation = imageService.getImage(candidate.getDescription());
-            SendPhoto photoMessage = new SendPhoto(String.valueOf(user.getTgId()), new InputFile(new File(imageLocation)));
-
+            if (imageLocation == null) {
+                sendMessage.setText(IMAGE_CREATION_ERROR);
+                return sendMessages;
+            }
             photoMessage.setCaption(candidate.getGender().getTitle()
                     + ", " + candidate.getName());
 

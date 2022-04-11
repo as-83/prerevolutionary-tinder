@@ -1070,3 +1070,944 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 01:12:03.430  170873 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - Некорректный запрос!
 01:12:05.818  173261 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - rrrrrrrrrrrr from user SuleymanVlg
 01:12:05.825  173268 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - Некорректный запрос!
+10:46:07.275  1082 [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 7964 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+10:46:07.306  1113 [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+10:46:09.259  3066 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+10:46:09.275  3082 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+10:46:09.275  3082 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+10:46:10.233  4040 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+10:46:10.249  4056 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 3.46 seconds (JVM running for 5.177)
+10:58:29.961  743768 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+10:58:29.961  743768 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:58:30.726  744533 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - e1dd569a-a167-4ccb-9ec2-abad81dd59df.jpg
+10:58:43.159  756966 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+10:58:43.258  757065 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - Подходящихъ кандадатуръ нѢтъ
+10:58:49.454  763261 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+10:58:49.493  763300 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:58:49.795  763602 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+10:58:56.124  769931 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:58:56.124  769931 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:58:56.331  770138 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+10:58:58.056  771863 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:58:58.056  771863 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:58:58.267  772074 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+10:58:59.810  773617 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:58:59.810  773617 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:59:00.012  773819 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+10:59:01.798  775605 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:01.799  775606 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:01.799  775606 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+10:59:03.265  777072 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:03.266  777073 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:59:03.471  777278 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+10:59:04.965  778772 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:04.965  778772 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:04.965  778772 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+10:59:06.330  780137 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:06.330  780137 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:59:06.536  780343 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 2986fc5f-e8ef-4e88-9472-4358e4c0d2c7.jpg
+10:59:07.924  781731 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:07.924  781731 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+10:59:08.125  781932 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 84232a36-ac7b-45b0-beac-aa409ba949fa.jpg
+10:59:09.860  783667 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:09.860  783667 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:09.860  783667 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+10:59:12.433  786240 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:12.434  786241 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:12.434  786241 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+10:59:13.921  787728 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:13.922  787729 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:13.922  787729 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+10:59:15.360  789167 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:15.360  789167 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:15.360  789167 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+10:59:16.640  790447 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+10:59:16.640  790447 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:16.640  790447 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+10:59:57.130  830937 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+10:59:57.131  830938 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:57.131  830938 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - e1dd569a-a167-4ccb-9ec2-abad81dd59df.jpg
+10:59:59.755  833562 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+10:59:59.774  833581 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+10:59:59.774  833581 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+11:00:07.461  841268 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:07.461  841268 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:07.461  841268 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+11:00:09.214  843021 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:09.214  843021 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:09.214  843021 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+11:00:13.560  847367 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:13.560  847367 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:13.560  847367 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:00:16.256  850063 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:16.257  850064 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:16.257  850064 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:00:18.427  852234 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:18.427  852234 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:18.427  852234 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 2986fc5f-e8ef-4e88-9472-4358e4c0d2c7.jpg
+11:00:20.703  854510 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:20.703  854510 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:20.703  854510 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+11:00:23.293  857100 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:23.293  857100 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:23.293  857100 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+11:00:24.777  858584 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:24.777  858584 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:24.777  858584 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+11:00:26.311  860118 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:26.311  860118 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:26.311  860118 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:00:27.706  861513 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:27.706  861513 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:27.707  861514 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:00:29.188  862995 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+11:00:29.188  862995 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:29.188  862995 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 2986fc5f-e8ef-4e88-9472-4358e4c0d2c7.jpg
+11:00:33.463  867270 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+11:00:33.463  867270 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:33.463  867270 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - e1dd569a-a167-4ccb-9ec2-abad81dd59df.jpg
+11:00:35.354  869161 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+11:00:35.354  869161 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:35.354  869161 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:00:37.790  871597 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:37.791  871598 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:37.791  871598 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+11:00:39.929  873736 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:39.929  873736 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:39.929  873736 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+11:00:41.662  875469 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:41.662  875469 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:41.662  875469 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+11:00:43.054  876861 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:43.055  876862 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:43.055  876862 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:00:44.365  878172 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:44.365  878172 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:44.365  878172 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 84232a36-ac7b-45b0-beac-aa409ba949fa.jpg
+11:00:45.806  879613 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:45.806  879613 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:45.807  879614 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 2986fc5f-e8ef-4e88-9472-4358e4c0d2c7.jpg
+11:00:47.127  880934 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:47.127  880934 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:47.127  880934 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:00:48.322  882129 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:48.323  882130 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:48.323  882130 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:00:49.788  883595 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:49.789  883596 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:49.789  883596 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:00:51.142  884949 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:51.142  884949 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:51.143  884950 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+11:00:52.317  886124 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:52.317  886124 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:52.318  886125 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+11:00:53.538  887345 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:53.538  887345 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:53.538  887345 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+11:00:54.738  888545 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:54.738  888545 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:54.739  888546 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:00:55.874  889681 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:55.874  889681 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:55.874  889681 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 84232a36-ac7b-45b0-beac-aa409ba949fa.jpg
+11:00:56.943  890750 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:56.943  890750 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:56.944  890751 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 2986fc5f-e8ef-4e88-9472-4358e4c0d2c7.jpg
+11:00:58.029  891836 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:58.030  891837 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:58.030  891837 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:00:59.034  892841 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:00:59.035  892842 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:00:59.035  892842 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:01:00.203  894010 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:01:00.204  894011 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:01:00.204  894011 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:01:01.342  895149 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:01:01.343  895150 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:01:01.343  895150 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+11:01:02.351  896158 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:01:02.351  896158 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:01:02.351  896158 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+11:01:03.339  897146 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+11:01:03.340  897147 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:01:03.340  897147 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - df33ef14-a30b-4c03-9b45-7913ffecb296.jpg
+11:01:05.130  898937 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+11:01:05.130  898937 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:01:05.131  898938 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - e1dd569a-a167-4ccb-9ec2-abad81dd59df.jpg
+11:02:49.795  1003602 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+11:02:49.795  1003602 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:02:49.796  1003603 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 913ebcb4-6165-4f74-b87c-4666bc5ae61b.jpg
+11:03:29.221  1043028 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+11:03:29.222  1043029 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:03:29.222  1043029 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 8c10c8bf-77bc-4386-9a8f-ae3f161dd83c.jpg
+11:03:32.252  1046059 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+11:03:32.252  1046059 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:03:32.252  1046059 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 69896bd9-de4d-4857-8beb-eafbaaf19a6b.jpg
+11:03:34.154  1047961 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+11:03:34.154  1047961 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:03:34.154  1047961 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - aee12a2b-c86d-444d-a7a5-0316328485ce.jpg
+11:03:43.240  1057047 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+11:03:43.240  1057047 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+11:03:43.241  1057048 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - e1dd569a-a167-4ccb-9ec2-abad81dd59df.jpg
+11:56:50.214  1121 [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 8712 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+11:56:50.214  1121 [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+11:56:52.563  3470 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+11:56:52.563  3470 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+11:56:52.563  3470 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+11:56:53.672  4579 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+11:56:53.699  4606 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 4.169 seconds (JVM running for 5.43)
+11:57:02.494  13401 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+11:57:02.494  13401 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+11:57:02.525  13432 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.MainPaige.handle(MainPaige.java:50), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+11:57:02.525  13432 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+11:57:02.619  13526 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:02.619  13526 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:02.837  13744 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:02.837  13744 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:03.041  13948 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:03.041  13948 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:03.260  14167 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+11:57:14.498  25405 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+11:57:14.590  25497 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+11:57:14.590  25497 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.FavoritesHandler.handle(FavoritesHandler.java:64), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+11:57:14.591  25498 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+11:57:14.802  25709 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:14.802  25709 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:15.007  25914 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:15.007  25914 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:15.210  26117 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:15.210  26117 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:15.414  26321 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+11:57:40.835  51742 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+11:57:40.836  51743 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+11:57:40.836  51743 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.MainPaige.handle(MainPaige.java:50), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+11:57:40.836  51743 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+11:57:41.770  52677 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:41.770  52677 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:41.990  52897 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:41.990  52897 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:42.197  53104 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:42.197  53104 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:42.400  53307 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+11:57:44.898  55805 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+11:57:44.928  55835 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+11:57:44.928  55835 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.CandidatesHandler.handle(CandidatesHandler.java:59), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+11:57:44.928  55835 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+11:57:45.137  56044 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:45.138  56045 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:45.346  56253 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:45.347  56254 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:45.551  56458 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:57:45.551  56458 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:57:45.767  56674 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+11:59:44.975  175882 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+11:59:44.975  175882 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+11:59:44.976  175883 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.FavoritesHandler.handle(FavoritesHandler.java:64), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+11:59:44.976  175883 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+11:59:45.189  176096 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:59:45.189  176096 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:59:45.400  176307 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:59:45.400  176307 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:59:45.618  176525 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:\img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+11:59:45.619  176526 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+11:59:45.819  176726 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+12:00:24.570  861  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 8292 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+12:00:24.570  861  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+12:00:26.172  2463 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+12:00:26.188  2479 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+12:00:26.188  2479 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+12:00:26.905  3196 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+12:00:26.920  3211 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.823 seconds (JVM running for 3.929)
+12:00:32.458  8749 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+12:00:32.505  8796 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+12:00:32.530  8821 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.FavoritesHandler.handle(FavoritesHandler.java:64), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+12:00:32.532  8823 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+12:00:32.618  8909 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:32.618  8909 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:32.845  9136 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:32.845  9136 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:33.056  9347 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:33.057  9348 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:33.271  9562 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+12:00:37.784  14075 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+12:00:37.784  14075 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+12:00:37.785  14076 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.MainPaige.handle(MainPaige.java:50), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+12:00:37.785  14076 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+12:00:37.996  14287 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:37.996  14287 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:38.319  14610 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:38.320  14611 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:38.516  14807 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:38.516  14807 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:38.735  15026 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+12:00:40.973  17264 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+12:00:40.992  17283 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+12:00:40.993  17284 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.CandidatesHandler.handle(CandidatesHandler.java:59), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+12:00:40.993  17284 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+12:00:41.206  17497 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:41.207  17498 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:41.414  17705 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:41.415  17706 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:41.609  17900 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:00:41.609  17900 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:00:41.826  18117 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+12:03:22.796  940  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 2344 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+12:03:22.812  956  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+12:03:24.438  2582 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+12:03:24.438  2582 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+12:03:24.438  2582 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+12:03:25.182  3326 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+12:03:25.197  3341 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.912 seconds (JVM running for 4.368)
+12:03:32.998  11142 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+12:03:33.045  11189 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+12:03:33.070  11214 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310), ru.bis.client.service.ImageService.getImage(ImageService.java:40), ru.bis.client.bot.handler.FavoritesHandler.handle(FavoritesHandler.java:64), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+12:03:33.072  11216 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - background.png
+12:03:33.155  11299 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:03:33.155  11299 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:03:33.364  11508 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:03:33.364  11508 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:03:33.573  11717 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\background.png (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:03:33.573  11717 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:03:33.785  11929 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+12:52:50.936  895  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 3544 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+12:52:50.936  895  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+12:52:52.844  2803 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bimBomImageCreator': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'message.background' in value "${message.background}"
+12:52:52.876  2835 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+12:52:52.969  2928 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bimBomImageCreator': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'message.background' in value "${message.background}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at ru.bis.client.BotStarter.main(BotStarter.java:10)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'message.background' in value "${message.background}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1330)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+12:58:04.385  1077 [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 8428 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+12:58:04.385  1077 [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+12:58:06.026  2718 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+12:58:06.026  2718 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+12:58:06.026  2718 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+12:58:06.766  3458 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+12:58:06.782  3474 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.912 seconds (JVM running for 4.422)
+12:58:07.610  4302 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+12:58:07.610  4302 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+12:58:08.250  4942 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - ---- Image Creation Error -----
+12:58:08.250  4942 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1553), ru.bis.client.service.ImageService.getImage(ImageService.java:64), ru.bis.client.bot.handler.MainPaige.handle(MainPaige.java:53), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+12:58:08.250  4942 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - fb7faab4-0078-4048-95f9-a7fa46252666.jpg
+12:58:08.328  5020 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\fb7faab4-0078-4048-95f9-a7fa46252666.jpg (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:58:08.328  5020 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:58:08.547  5239 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\fb7faab4-0078-4048-95f9-a7fa46252666.jpg (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:58:08.547  5239 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:58:08.750  5442 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\fb7faab4-0078-4048-95f9-a7fa46252666.jpg (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:58:08.750  5442 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:58:08.969  5661 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+12:58:08.985  5677 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+12:58:09.063  5755 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+12:58:09.375  6067 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - ---- Image Creation Error -----
+12:58:09.375  6067 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.service.ImageService - [java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1553), ru.bis.client.service.ImageService.getImage(ImageService.java:64), ru.bis.client.bot.handler.FavoritesHandler.handle(FavoritesHandler.java:65), ru.bis.client.bot.handler.HandlersDispatcher.handle(HandlersDispatcher.java:48), ru.bis.client.bot.Bot.onUpdateReceived(Bot.java:38), java.base/java.util.ArrayList.forEach(ArrayList.java:1511), org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27), org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)]
+12:58:09.375  6067 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - 0701b079-ef74-446d-ac42-3ca3388f6e9b.jpg
+12:58:09.688  6380 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\0701b079-ef74-446d-ac42-3ca3388f6e9b.jpg (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:58:09.688  6380 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:58:09.891  6583 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\0701b079-ef74-446d-ac42-3ca3388f6e9b.jpg (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:58:09.903  6595 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:58:10.109  6801 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://api.telegram.org:443: classpath:img\0701b079-ef74-446d-ac42-3ca3388f6e9b.jpg (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+12:58:10.109  6801 [@SulForecasterBot Telegram Executor] INFO  o.a.http.impl.execchain.RetryExec - Retrying request to {s}->https://api.telegram.org:443
+12:58:10.399  7091 [@SulForecasterBot Telegram Executor] ERROR ru.bis.client.bot.Bot - Unable to send photo
+13:04:07.621  894  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 8452 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+13:04:07.639  912  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+13:04:09.444  2717 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+13:04:09.444  2717 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+13:04:09.444  2717 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+13:04:10.205  3478 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+13:04:10.221  3494 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 3.084 seconds (JVM running for 4.204)
+13:04:11.838  5111 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+13:04:11.842  5115 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:04:12.375  5648 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgaa0d75b9-7226-4f58-b6c8-6499952102be.jpg
+13:04:12.375  5648 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgaa0d75b9-7226-4f58-b6c8-6499952102be.jpg
+13:04:17.348  10621 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+13:04:17.391  10664 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:04:17.620  10893 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:04:17.621  10894 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:04:23.661  16934 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:04:23.662  16935 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:04:23.904  17177 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:04:23.904  17177 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:04:26.665  19938 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:04:26.665  19938 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:04:26.883  20156 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgb037be3e-64b5-42ab-963e-fa88f6cc0de2.jpg
+13:04:26.883  20156 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb037be3e-64b5-42ab-963e-fa88f6cc0de2.jpg
+13:04:29.391  22664 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:04:29.392  22665 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:04:29.392  22665 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:04:31.222  24495 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:04:31.223  24496 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:04:31.223  24496 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:04:32.806  26079 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:04:32.806  26079 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:04:32.806  26079 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb037be3e-64b5-42ab-963e-fa88f6cc0de2.jpg
+13:04:34.246  27519 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:04:34.246  27519 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:04:34.246  27519 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:05:25.439  78712 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+13:05:25.440  78713 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:05:25.440  78713 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgaa0d75b9-7226-4f58-b6c8-6499952102be.jpg
+13:05:27.240  80513 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+13:05:27.272  80545 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:05:27.490  80763 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:05:27.491  80764 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:05:31.607  84880 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+13:05:31.607  84880 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:05:31.826  85099 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgda250eb1-5d26-4ac0-9d77-efd539f48b87.jpg
+13:05:31.826  85099 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgda250eb1-5d26-4ac0-9d77-efd539f48b87.jpg
+13:05:33.479  86752 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+13:05:33.479  86752 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:05:33.703  86976 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:05:33.703  86976 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:05:35.486  88759 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+13:05:35.486  88759 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:05:35.486  88759 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:05:37.151  90424 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+13:05:37.152  90425 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:05:37.152  90425 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:05:38.790  92063 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+13:05:38.790  92063 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+13:05:39.004  92277 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img054e2cc5-68ec-4b39-9c81-3fc2aa12322e.jpg
+13:05:39.004  92277 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img054e2cc5-68ec-4b39-9c81-3fc2aa12322e.jpg
+13:06:20.849  134122 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT_CANDIDATE from user SuleymanVlg
+13:06:20.956  134229 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:20.956  134229 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:06:22.585  135858 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT_CANDIDATE from user SuleymanVlg
+13:06:22.621  135894 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:22.621  135894 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgda250eb1-5d26-4ac0-9d77-efd539f48b87.jpg
+13:06:24.240  137513 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+13:06:24.241  137514 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:24.241  137514 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:06:26.274  139547 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT_CANDIDATE from user SuleymanVlg
+13:06:26.306  139579 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:26.306  139579 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:06:28.015  141288 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+13:06:28.015  141288 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:28.016  141289 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgaa0d75b9-7226-4f58-b6c8-6499952102be.jpg
+13:06:29.377  142650 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+13:06:29.377  142650 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:29.377  142650 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:06:31.426  144699 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:31.426  144699 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:31.426  144699 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:06:32.931  146204 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:32.931  146204 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:32.931  146204 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:06:35.138  148411 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:35.138  148411 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:35.138  148411 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:06:36.417  149690 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:36.417  149690 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:36.418  149691 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img054e2cc5-68ec-4b39-9c81-3fc2aa12322e.jpg
+13:06:37.773  151046 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:37.773  151046 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:37.773  151046 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb037be3e-64b5-42ab-963e-fa88f6cc0de2.jpg
+13:06:39.133  152406 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:39.134  152407 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:39.134  152407 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:06:40.325  153598 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:40.325  153598 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:40.325  153598 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:06:41.427  154700 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:06:41.427  154700 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:06:41.427  154700 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:07:22.550  195823 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:22.550  195823 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:22.550  195823 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:07:24.405  197678 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:24.406  197679 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:24.406  197679 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img054e2cc5-68ec-4b39-9c81-3fc2aa12322e.jpg
+13:07:25.854  199127 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:25.854  199127 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:25.854  199127 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb037be3e-64b5-42ab-963e-fa88f6cc0de2.jpg
+13:07:28.010  201283 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:28.010  201283 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:28.011  201284 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:07:29.752  203025 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:29.752  203025 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:29.752  203025 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:07:31.322  204595 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:31.322  204595 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:31.322  204595 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:07:32.691  205964 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:32.692  205965 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:32.692  205965 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img783567d0-4e54-41ae-880e-26a2d91a131c.jpg
+13:07:34.306  207579 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:34.306  207579 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:34.307  207580 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img054e2cc5-68ec-4b39-9c81-3fc2aa12322e.jpg
+13:07:35.892  209165 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:35.893  209166 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:35.893  209166 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb037be3e-64b5-42ab-963e-fa88f6cc0de2.jpg
+13:07:37.328  210601 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:37.329  210602 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:37.329  210602 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img224d3d46-1a59-436a-9e44-50909fd8ad3e.jpg
+13:07:39.143  212416 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:39.143  212416 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:39.143  212416 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6e589aea-2702-4518-92e4-645ea21cd96d.jpg
+13:07:41.500  214773 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+13:07:41.500  214773 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:07:41.500  214773 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4799ab6f-8882-4e96-b132-2d7dbba9d380.jpg
+13:09:24.194  317467 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+13:09:24.194  317467 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+13:09:24.195  317468 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgaa0d75b9-7226-4f58-b6c8-6499952102be.jpg
+15:01:12.194  891  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 9044 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:01:12.194  891  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:01:13.870  2567 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:01:13.870  2567 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:01:13.870  2567 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:01:14.621  3318 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:01:14.636  3333 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.928 seconds (JVM running for 4.049)
+15:01:44.326  33023 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:01:44.326  33023 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:01:44.866  33563 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img21c42e36-e21f-49de-92bb-2868a4b80d43.jpg
+15:01:44.869  33566 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img21c42e36-e21f-49de-92bb-2868a4b80d43.jpg
+15:01:55.145  43842 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:01:55.232  43929 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:01:55.464  44161 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img842742b4-c7cc-4953-a773-f986dea4e1d9.jpg
+15:01:55.464  44161 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img842742b4-c7cc-4953-a773-f986dea4e1d9.jpg
+15:02:22.470  71167 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:02:22.471  71168 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:02:22.471  71168 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img21c42e36-e21f-49de-92bb-2868a4b80d43.jpg
+15:08:32.541  894  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 9008 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:08:32.557  910  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:08:34.187  2540 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:08:34.187  2540 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:08:34.187  2540 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:08:34.944  3297 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:08:34.959  3312 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.912 seconds (JVM running for 4.047)
+15:08:40.791  9144 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:08:40.794  9147 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:08:41.323  9676 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img7ddd0516-98b3-43e8-a12c-c09f6a1ba754.jpg
+15:08:41.323  9676 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img7ddd0516-98b3-43e8-a12c-c09f6a1ba754.jpg
+15:08:44.084  12437 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:08:44.131  12484 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:08:44.364  12717 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgdc15c9c4-a70f-4532-9553-a53b7055c202.jpg
+15:08:44.365  12718 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgdc15c9c4-a70f-4532-9553-a53b7055c202.jpg
+15:09:28.941  57294 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:09:28.942  57295 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:09:29.169  57522 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img9be08e75-15ba-45ec-933d-42b05e65beb0.jpg
+15:09:29.170  57523 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img9be08e75-15ba-45ec-933d-42b05e65beb0.jpg
+15:14:47.146  900  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 7708 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:14:47.162  916  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:14:48.804  2558 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:14:48.804  2558 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:14:48.804  2558 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:14:49.539  3293 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:14:49.555  3309 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.922 seconds (JVM running for 4.08)
+15:15:17.462  31216 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:15:17.465  31219 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:15:17.996  31750 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img53cb2d4e-8164-481d-8f88-5e27f5563f7c.jpg
+15:15:17.996  31750 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img53cb2d4e-8164-481d-8f88-5e27f5563f7c.jpg
+15:15:20.802  34556 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:15:20.850  34604 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:15:21.071  34825 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img335aae69-f186-49b5-a4dc-fd769fa5cb73.jpg
+15:15:21.072  34826 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img335aae69-f186-49b5-a4dc-fd769fa5cb73.jpg
+15:20:56.666  864  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 7192 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:20:56.666  864  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:20:58.564  2762 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:20:58.564  2762 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:20:58.564  2762 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:20:59.398  3596 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:20:59.413  3611 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 3.241 seconds (JVM running for 5.63)
+15:21:04.726  8924 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:21:04.729  8927 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:21:16.619  20817 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img03a34ccf-8a8b-499d-8938-860f6d2ef9a5.jpg
+15:21:16.619  20817 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img03a34ccf-8a8b-499d-8938-860f6d2ef9a5.jpg
+15:21:21.251  25449 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:21:21.303  25501 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:25:36.965  281163 [@SulForecasterBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - api.telegram.org:443 failed to respond
+org.apache.http.NoHttpResponseException: api.telegram.org:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+15:25:37.083  281281 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img3469cf06-703f-41f2-8c8f-6688eb0c7422.jpg
+15:25:37.083  281281 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3469cf06-703f-41f2-8c8f-6688eb0c7422.jpg
+15:29:27.213  948  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 5256 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:29:27.228  963  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:29:28.891  2626 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:29:28.894  2629 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:29:28.895  2630 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:29:29.644  3379 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:29:29.660  3395 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.948 seconds (JVM running for 4.128)
+15:29:58.350  908  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 8100 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:29:58.365  923  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:30:00.047  2605 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:30:00.047  2605 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:30:00.047  2605 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:30:00.798  3356 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:30:00.814  3372 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.972 seconds (JVM running for 4.085)
+15:30:11.033  13591 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:30:11.035  13593 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:30:11.552  14110 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgc53e518d-8a53-46e0-b11d-ed9c106814f5.jpg
+15:30:11.568  14126 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgc53e518d-8a53-46e0-b11d-ed9c106814f5.jpg
+15:30:14.319  16877 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:30:14.366  16924 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:30:14.596  17154 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgf8c29ff7-3df2-412d-b4e7-518f8506f80b.jpg
+15:30:14.596  17154 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgf8c29ff7-3df2-412d-b4e7-518f8506f80b.jpg
+15:34:46.103  1000 [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 5688 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:34:46.118  1015 [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:34:47.883  2780 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:34:47.883  2780 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:34:47.883  2780 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:34:48.641  3538 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:34:48.656  3553 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 3.112 seconds (JVM running for 4.31)
+15:34:52.262  7159 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:34:52.262  7159 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:34:52.824  7721 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img338f7917-db4f-4595-8132-f4260b1400a6.jpg
+15:34:52.824  7721 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img338f7917-db4f-4595-8132-f4260b1400a6.jpg
+15:34:55.861  10758 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:34:55.908  10805 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:34:56.156  11053 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img4f041c15-abea-40a1-b48c-a9ff7d90665e.jpg
+15:34:56.157  11054 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4f041c15-abea-40a1-b48c-a9ff7d90665e.jpg
+15:35:34.033  48930 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:35:34.033  48930 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:35:34.257  49154 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img4d581cbb-4856-4a6b-9e9d-29488b334d66.jpg
+15:35:34.258  49155 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4d581cbb-4856-4a6b-9e9d-29488b334d66.jpg
+15:36:10.453  85350 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:36:10.453  85350 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:36:10.681  85578 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imge076af7c-1093-4d60-b586-082e1d990d5a.jpg
+15:36:10.681  85578 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge076af7c-1093-4d60-b586-082e1d990d5a.jpg
+15:36:32.070  106967 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:36:32.070  106967 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:36:32.307  107204 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img2477da7d-daed-48de-badc-13399658768e.jpg
+15:36:32.307  107204 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img2477da7d-daed-48de-badc-13399658768e.jpg
+15:36:51.107  126004 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:36:51.107  126004 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:36:51.325  126222 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img915455be-8a34-4204-bfd9-ea4867ef6434.jpg
+15:36:51.326  126223 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img915455be-8a34-4204-bfd9-ea4867ef6434.jpg
+15:36:59.319  134216 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:36:59.319  134216 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:36:59.528  134425 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgc19b42dc-3511-42b5-8a40-b1528824d82a.jpg
+15:36:59.528  134425 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgc19b42dc-3511-42b5-8a40-b1528824d82a.jpg
+15:37:07.809  142706 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:37:07.809  142706 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:37:07.810  142707 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4f041c15-abea-40a1-b48c-a9ff7d90665e.jpg
+15:37:12.411  147308 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:37:12.412  147309 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:37:12.412  147309 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4d581cbb-4856-4a6b-9e9d-29488b334d66.jpg
+15:37:15.176  150073 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:37:15.176  150073 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:37:15.176  150073 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img338f7917-db4f-4595-8132-f4260b1400a6.jpg
+15:37:18.100  152997 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:37:18.100  152997 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:37:18.100  152997 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img4d581cbb-4856-4a6b-9e9d-29488b334d66.jpg
+15:37:25.418  160315 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:37:25.419  160316 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:37:25.419  160316 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge076af7c-1093-4d60-b586-082e1d990d5a.jpg
+15:38:31.528  938  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 2096 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:38:31.544  954  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:38:33.214  2624 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:38:33.230  2640 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:38:33.230  2640 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:38:33.973  3383 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:38:33.973  3383 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.947 seconds (JVM running for 4.285)
+15:46:01.454  900  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 932 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+15:46:01.459  905  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+15:46:03.206  2652 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+15:46:03.206  2652 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+15:46:03.206  2652 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+15:46:03.951  3397 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+15:46:03.966  3412 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 3.019 seconds (JVM running for 4.134)
+15:46:28.087  27533 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:46:28.087  27533 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:46:28.708  28154 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgcfd27cca-0be1-4005-80cb-37e213402ac5.jpg
+15:46:28.708  28154 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgcfd27cca-0be1-4005-80cb-37e213402ac5.jpg
+15:46:32.150  31596 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+15:46:32.195  31641 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:46:32.441  31887 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img075b3cd6-b0a6-4dd2-b8f4-45ec7a434f37.jpg
+15:46:32.441  31887 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img075b3cd6-b0a6-4dd2-b8f4-45ec7a434f37.jpg
+15:47:00.200  59646 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:47:00.201  59647 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:47:00.426  59872 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img0f76af9d-55d8-47a7-99a0-658be69f5837.jpg
+15:47:00.427  59873 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img0f76af9d-55d8-47a7-99a0-658be69f5837.jpg
+15:47:14.309  73755 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:47:14.310  73756 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:47:14.544  73990 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgad472a0e-8618-405c-92ae-91b14c8bf9b5.jpg
+15:47:14.544  73990 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgad472a0e-8618-405c-92ae-91b14c8bf9b5.jpg
+15:47:25.636  85082 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:47:25.637  85083 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:47:25.851  85297 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img6060101a-00ef-4207-9dd8-acb9cad98c76.jpg
+15:47:25.851  85297 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6060101a-00ef-4207-9dd8-acb9cad98c76.jpg
+15:47:34.532  93978 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:47:34.533  93979 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:47:34.737  94183 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img3530d7ec-ffe9-493b-a27a-cb3b9f5ae6e4.jpg
+15:47:34.738  94184 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3530d7ec-ffe9-493b-a27a-cb3b9f5ae6e4.jpg
+15:47:51.630  111076 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:47:51.631  111077 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:47:51.844  111290 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img1caaa253-fa23-4d2f-b2ce-df4409e30456.jpg
+15:47:51.844  111290 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img1caaa253-fa23-4d2f-b2ce-df4409e30456.jpg
+15:48:05.817  125263 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:48:05.818  125264 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:48:05.818  125264 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img075b3cd6-b0a6-4dd2-b8f4-45ec7a434f37.jpg
+15:48:20.627  140073 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:48:20.627  140073 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:48:20.627  140073 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img0f76af9d-55d8-47a7-99a0-658be69f5837.jpg
+15:48:23.786  143232 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:48:23.786  143232 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:48:23.786  143232 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgad472a0e-8618-405c-92ae-91b14c8bf9b5.jpg
+15:48:25.819  145265 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+15:48:25.819  145265 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:48:25.820  145266 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img0f76af9d-55d8-47a7-99a0-658be69f5837.jpg
+15:48:46.522  165968 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:48:46.522  165968 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:48:46.522  165968 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgad472a0e-8618-405c-92ae-91b14c8bf9b5.jpg
+15:49:28.974  208420 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+15:49:28.974  208420 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:49:28.974  208420 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6060101a-00ef-4207-9dd8-acb9cad98c76.jpg
+15:50:39.181  278627 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+15:50:39.182  278628 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+15:50:39.182  278628 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgcfd27cca-0be1-4005-80cb-37e213402ac5.jpg
+15:50:43.434  282880 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+15:50:43.464  282910 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started
+15:50:43.679  283125 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img580c352d-7404-45e0-8624-0b5c9f75f1c4.jpg
+15:50:43.680  283126 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img580c352d-7404-45e0-8624-0b5c9f75f1c4.jpg
+16:45:22.806  879  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 8908 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+16:45:22.806  879  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+16:45:24.535  2608 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+16:45:24.551  2624 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+16:45:24.551  2624 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+16:45:25.298  3371 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+16:45:25.312  3385 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.989 seconds (JVM running for 4.099)
+16:45:26.755  4828 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:45:26.759  4832 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:45:27.335  5408 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img25bfd2f0-82e5-4836-8e41-849238132df0.jpg
+16:45:27.335  5408 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img25bfd2f0-82e5-4836-8e41-849238132df0.jpg
+16:45:39.200  17273 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+16:45:39.259  17332 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:45:39.499  17572 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img92d1cd41-52b3-4316-84fb-9251fc276484.jpg
+16:45:39.499  17572 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img92d1cd41-52b3-4316-84fb-9251fc276484.jpg
+16:46:12.137  50210 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:46:12.145  50218 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:46:12.382  50455 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img7730f345-e5c8-4ae6-9c00-42a8aebaa5ba.jpg
+16:46:12.383  50456 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img7730f345-e5c8-4ae6-9c00-42a8aebaa5ba.jpg
+16:47:58.058  156131 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:47:58.061  156134 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:47:58.061  156134 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img25bfd2f0-82e5-4836-8e41-849238132df0.jpg
+16:48:00.081  158154 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+16:48:00.109  158182 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:48:00.342  158415 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img602ca5ae-01ca-4cfd-a05d-fdf81a52a3b4.jpg
+16:48:00.345  158418 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img602ca5ae-01ca-4cfd-a05d-fdf81a52a3b4.jpg
+16:48:58.590  216663 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT_CANDIDATE from user SuleymanVlg
+16:48:58.788  216861 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:48:58.789  216862 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img92d1cd41-52b3-4316-84fb-9251fc276484.jpg
+16:52:33.850  1146 [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 6684 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+16:52:33.850  1146 [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+16:52:35.515  2811 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+16:52:35.515  2811 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+16:52:35.515  2811 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+16:52:36.258  3554 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+16:52:36.258  3554 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.947 seconds (JVM running for 4.469)
+16:52:41.207  8503 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:52:41.211  8507 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:52:41.746  9042 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img73a0dfe2-b3a1-42bd-979b-43d2a3cea2a5.jpg
+16:52:41.746  9042 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img73a0dfe2-b3a1-42bd-979b-43d2a3cea2a5.jpg
+16:52:50.230  17526 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+16:52:50.285  17581 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:52:50.511  17807 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:52:50.512  17808 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:52:53.428  20724 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:52:53.434  20730 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:52:53.700  20996 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img669b0cf1-a723-4cb4-b749-04f09c23fcbe.jpg
+16:52:53.700  20996 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img669b0cf1-a723-4cb4-b749-04f09c23fcbe.jpg
+16:52:58.036  25332 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:52:58.043  25339 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:52:58.269  25565 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imge9f2e4c9-9954-4661-8198-242f73a30c4f.jpg
+16:52:58.270  25566 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge9f2e4c9-9954-4661-8198-242f73a30c4f.jpg
+16:53:22.539  49835 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:53:22.542  49838 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:53:22.776  50072 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img3ac1c425-ce25-4d8d-a932-6f777f352443.jpg
+16:53:22.776  50072 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3ac1c425-ce25-4d8d-a932-6f777f352443.jpg
+16:53:31.103  58399 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:53:31.110  58406 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:53:31.111  58407 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge9f2e4c9-9954-4661-8198-242f73a30c4f.jpg
+16:53:36.904  64200 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:53:36.907  64203 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:53:36.907  64203 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3ac1c425-ce25-4d8d-a932-6f777f352443.jpg
+16:53:40.221  67517 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:53:40.229  67525 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:53:40.456  67752 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:53:40.457  67753 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:54:27.248  114544 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:54:27.250  114546 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:27.250  114546 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img73a0dfe2-b3a1-42bd-979b-43d2a3cea2a5.jpg
+16:54:35.600  122896 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+16:54:35.629  122925 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:35.631  122927 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:54:41.470  128766 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:54:41.471  128767 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:41.471  128767 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img73a0dfe2-b3a1-42bd-979b-43d2a3cea2a5.jpg
+16:54:43.355  130651 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - CANDIDATES from user SuleymanVlg
+16:54:43.366  130662 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:43.367  130663 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:54:45.282  132578 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT_CANDIDATE from user SuleymanVlg
+16:54:45.343  132639 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:45.343  132639 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:54:47.732  135028 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT_CANDIDATE from user SuleymanVlg
+16:54:47.789  135085 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - Подходящихъ кандадатуръ нѢтъ
+16:54:51.568  138864 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREV_CANDIDATE from user SuleymanVlg
+16:54:51.582  138878 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - Подходящихъ кандадатуръ нѢтъ
+16:54:53.760  141056 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:54:53.761  141057 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:53.761  141057 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img73a0dfe2-b3a1-42bd-979b-43d2a3cea2a5.jpg
+16:54:56.336  143632 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+16:54:56.347  143643 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:56.347  143643 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:54:58.703  145999 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:54:58.707  146003 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:54:58.708  146004 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3ac1c425-ce25-4d8d-a932-6f777f352443.jpg
+16:55:00.645  147941 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:00.652  147948 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:00.652  147948 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge9f2e4c9-9954-4661-8198-242f73a30c4f.jpg
+16:55:01.974  149270 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:01.981  149277 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:01.981  149277 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img669b0cf1-a723-4cb4-b749-04f09c23fcbe.jpg
+16:55:03.174  150470 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:03.186  150482 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:03.186  150482 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:55:04.586  151882 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:04.588  151884 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:55:04.798  152094 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img0fde4b6e-cf5a-414b-8c21-a1259f9d68ed.jpg
+16:55:04.799  152095 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img0fde4b6e-cf5a-414b-8c21-a1259f9d68ed.jpg
+16:55:07.717  155013 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:07.719  155015 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+16:55:07.941  155237 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img6eecc472-bc48-4b68-a616-5c0550a836cb.jpg
+16:55:07.942  155238 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6eecc472-bc48-4b68-a616-5c0550a836cb.jpg
+16:55:10.281  157577 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:10.289  157585 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:10.289  157585 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:55:13.820  161116 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - NEXT from user SuleymanVlg
+16:55:13.821  161117 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:13.822  161118 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6eecc472-bc48-4b68-a616-5c0550a836cb.jpg
+16:55:17.111  164407 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:17.119  164415 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:17.119  164415 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:55:19.650  166946 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:19.658  166954 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:19.658  166954 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:55:21.815  169111 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:21.826  169122 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:21.826  169122 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:55:23.886  171182 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:23.888  171184 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:23.889  171185 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3ac1c425-ce25-4d8d-a932-6f777f352443.jpg
+16:55:39.791  187087 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:39.798  187094 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:39.798  187094 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge9f2e4c9-9954-4661-8198-242f73a30c4f.jpg
+16:55:42.423  189719 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:42.430  189726 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:42.430  189726 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img669b0cf1-a723-4cb4-b749-04f09c23fcbe.jpg
+16:55:44.634  191930 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:44.646  191942 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:44.647  191943 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:55:45.853  193149 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:45.854  193150 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:45.855  193151 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img0fde4b6e-cf5a-414b-8c21-a1259f9d68ed.jpg
+16:55:47.214  194510 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:47.216  194512 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:47.216  194512 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img6eecc472-bc48-4b68-a616-5c0550a836cb.jpg
+16:55:48.575  195871 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:48.583  195879 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:48.583  195879 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:55:49.774  197070 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:49.783  197079 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:49.783  197079 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3080e2c3-767d-4a4f-9b93-73ff1785f631.jpg
+16:55:51.007  198303 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:51.017  198313 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:51.018  198314 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb550c3c7-8c1f-4415-a36b-361b6667aa24.jpg
+16:55:53.123  200419 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - PREVIOUS from user SuleymanVlg
+16:55:53.126  200422 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:55:53.126  200422 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img3ac1c425-ce25-4d8d-a932-6f777f352443.jpg
+16:56:02.161  209457 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+16:56:02.162  209458 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Getting image from cache
+16:56:02.162  209458 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img73a0dfe2-b3a1-42bd-979b-43d2a3cea2a5.jpg
+17:13:22.506  1006 [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 7372 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+17:13:22.506  1006 [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+17:13:24.213  2713 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+17:13:24.213  2713 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+17:13:24.213  2713 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+17:13:24.969  3469 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+17:13:24.984  3484 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.974 seconds (JVM running for 4.525)
+17:13:34.466  12966 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+17:13:34.470  12970 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+17:13:34.992  13492 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imgb1e8865a-2516-44bc-9de3-223d42cefa9b.jpg
+17:13:35.007  13507 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imgb1e8865a-2516-44bc-9de3-223d42cefa9b.jpg
+17:13:56.194  34694 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+17:13:56.258  34758 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+17:13:56.490  34990 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\imge3f93b73-9a8b-4c36-ae0b-1dadea4535cd.jpg
+17:13:56.491  34991 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - imge3f93b73-9a8b-4c36-ae0b-1dadea4535cd.jpg
+17:20:31.008  882  [main] INFO  ru.bis.client.BotStarter - Starting BotStarter using Java 17.0.2 on DESKTOP-1RF1BD1 with PID 5276 (C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes started by My PC in C:\Users\My PC\IdeaProjects\prerevolutionary-tinder)
+17:20:31.017  891  [main] INFO  ru.bis.client.BotStarter - No active profile set, falling back to 1 default profile: "default"
+17:20:32.697  2571 [main] INFO  c.g.x.bots.TelegramApiFactory - Initializing API without webhook support
+17:20:32.697  2571 [main] INFO  c.g.x.bots.TelegramBotStarter - Starting auto config for telegram bots
+17:20:32.697  2571 [main] INFO  c.g.x.bots.TelegramBotStarter - Registering polling bot: @SulForecasterBot
+17:20:33.448  3322 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8888
+17:20:33.464  3338 [main] INFO  ru.bis.client.BotStarter - Started BotStarter in 2.935 seconds (JVM running for 4.133)
+17:20:53.034  22908 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - MENU from user SuleymanVlg
+17:20:53.038  22912 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+17:20:53.577  23451 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img86642ac8-1314-43e3-92db-e898305e35df.jpg
+17:20:53.577  23451 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img86642ac8-1314-43e3-92db-e898305e35df.jpg
+17:21:15.093  44967 [@SulForecasterBot Telegram Executor] INFO  r.b.c.b.handler.HandlersDispatcher - FAVORITES from user SuleymanVlg
+17:21:15.162  45036 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image creation started...
+17:21:15.398  45272 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.service.ImageService - Image created. Location:C:\Users\My PC\IdeaProjects\prerevolutionary-tinder\client\target\classes\img26740ec3-411d-40ff-8489-a73bb768272d.jpg
+17:21:15.399  45273 [@SulForecasterBot Telegram Executor] INFO  ru.bis.client.bot.Bot - img26740ec3-411d-40ff-8489-a73bb768272d.jpg
+17:26:18.983  348857 [@SulForecasterBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - api.telegram.org:443 failed to respond
+org.apache.http.NoHttpResponseException: api.telegram.org:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)

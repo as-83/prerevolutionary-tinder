@@ -4,14 +4,12 @@ import org.springframework.stereotype.Service;
 import ru.bis.client.bot.BotState;
 import ru.bis.client.http.Requester;
 import ru.bis.client.model.FanStatus;
-import ru.bis.client.model.Gender;
 import ru.bis.client.model.User;
 import ru.bis.client.model.UserAndStatus;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Service
 public class UserService {
@@ -29,7 +27,7 @@ public class UserService {
 
     public User getUserByTgId(long userTgId) {
 
-        if(usersCache.containsKey(userTgId)) {
+        if (usersCache.containsKey(userTgId)) {
             return usersCache.get(userTgId);
         }
 
@@ -40,7 +38,7 @@ public class UserService {
             return optionalUser.get();
         }
 
-        return new User( userTgId,  BotState.START);
+        return new User(userTgId, BotState.START);
     }
 
     public User save(User user) {
@@ -87,7 +85,7 @@ public class UserService {
         favorites.put(fanTgId, requester.getFavorites(fanTgId));
     }
 
-    public List<UserAndStatus>  getFansAndFavorites(Long tgId) {
+    public List<UserAndStatus> getFansAndFavorites(Long tgId) {
 
         List<UserAndStatus> userAndStatuses = new ArrayList<>();
         List<User> userFavorites = getUserFavorites(tgId);
@@ -104,21 +102,21 @@ public class UserService {
                 .filter(f -> lovingEachOver.stream().noneMatch(uf -> uf.getDbId() == f.getDbId()))
                 .forEach(e -> userAndStatuses.add(new UserAndStatus(e, FanStatus.FAN)));
 
-        lovingEachOver .forEach(e -> userAndStatuses.add(new UserAndStatus(e, FanStatus.BOTH)));
+        lovingEachOver.forEach(e -> userAndStatuses.add(new UserAndStatus(e, FanStatus.BOTH)));
 
         fansAndFavsChanged.put(tgId, false);
         return userAndStatuses;
     }
 
     private List<User> getUserFavorites(Long tgId) {
-        if (!favorites.containsKey(tgId) ) {
+        if (!favorites.containsKey(tgId)) {
             favorites.put(tgId, getUserFavoritesByTgId(tgId));
         }
         return favorites.get(tgId);
     }
 
     private List<User> getUserFans(Long tgId) {
-        if (!fans.containsKey(tgId) ) {
+        if (!fans.containsKey(tgId)) {
             fans.put(tgId, getUserFansByTgId(tgId));
         }
         return fans.get(tgId);

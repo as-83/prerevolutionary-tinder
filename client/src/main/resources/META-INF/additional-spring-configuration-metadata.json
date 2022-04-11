@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "background.img",
+      "type": "java.lang.String",
+      "description": "Description for background.img."
+  }
+] }
