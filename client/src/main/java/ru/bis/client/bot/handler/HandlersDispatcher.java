@@ -36,14 +36,14 @@ public class HandlersDispatcher {
                 final long userTgId = message.getFrom().getId();
                 log.info(message.getText() + " from user " + message.getFrom().getUserName());
 
-                final User user = userService.getUserByTgId(userTgId);//TODO
+                final User user = userService.getUserByTgId(userTgId);
 
                 return getHandlerByState(user.getBotState()).handle(user, message.getText());
 
             } else if (update.hasCallbackQuery()) {
                 final CallbackQuery callbackQuery = update.getCallbackQuery();
                 final long userTgId = callbackQuery.getFrom().getId();
-                final User user = userService.getUserByTgId(userTgId);//TODO
+                final User user = userService.getUserByTgId(userTgId);
                 log.info(callbackQuery.getData() + " from user " + callbackQuery.getFrom().getUserName());
                 return getHandlerByCallBackQuery(callbackQuery.getData()).handle(user, callbackQuery.getData());
             }

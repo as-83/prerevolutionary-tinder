@@ -62,7 +62,7 @@ public class MainPaige implements Handler {
             sendPhoto.setCaption(user.getGender().getTitle() + ", " + user.getName());
             messagesList.clear();
             messagesList.add(sendPhoto);
-            List<Callback> callbacks = List.of(Callback.FAVORITES, Callback.CANDIDATES);
+            List<Callback> callbacks = List.of(Callback.FAVORITES, Callback.EDIT, Callback.CANDIDATES);
             InlineKeyboardMarkup inlineKeyboardMarkup = ButtonCreator.create(callbacks);
             sendPhoto.setReplyMarkup(inlineKeyboardMarkup);
         }
@@ -71,7 +71,7 @@ public class MainPaige implements Handler {
 
     @Override
     public BotState operatedBotState() {
-        return BotState.NONE;
+        return BotState.SIGNUP;
     }
 
     @Override

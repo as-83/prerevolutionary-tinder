@@ -14,7 +14,8 @@ public enum Callback {
     NEXT("->"),
     PREV_CANDIDATE("<-"),
     NEXT_CANDIDATE("->"),
-    MENU("Меню");
+    MENU("Меню"),
+    EDIT("Редактировать");
 
     private final String title;
 
