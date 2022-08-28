@@ -1,14 +1,14 @@
 package ru.bis.server.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import ru.bis.server.model.LinkTemplate;
 import ru.bis.server.model.User;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface UserRepo extends JpaRepository<User, Long> {
+public interface LinkTemplateRepo extends JpaRepository<LinkTemplate, Long> {
 
-    Optional<User> getByTelegramId(long id);
-    List<User> findTop50ByUserIdAfter(Long userId);
+    LinkTemplate getByUser(User byId);
 }
 

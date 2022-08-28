@@ -51,3 +51,11 @@ Accept: application/json
 ###
 GET http://localhost:8080/api/fans/22
 Accept: application/json
+
+###
+POST http://localhost:8080/api/users-2
+Accept: application/json
+
+###
+POST http://localhost:8080/api/generate200
+Accept: application/json

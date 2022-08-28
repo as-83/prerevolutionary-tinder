@@ -35,6 +35,19 @@ public class User {
 
     private Sex searchPreferences;
 
+    @OneToOne(mappedBy = "user")
+    private LinkTemplate linkTemplate;
+
+
+
+    public User(long telegramId, String name, String description, Sex sex, Sex searchPreferences) {
+        this.telegramId = telegramId;
+        this.name = name;
+        this.description = description;
+        this.sex = sex;
+        this.searchPreferences = searchPreferences;
+    }
+
     @Getter(onMethod_ = @JsonIgnore)
     @Setter(onMethod_ = @JsonIgnore)
     @ManyToMany

@@ -74,5 +74,22 @@ public class UserController {
         return new ResponseEntity<>(httpStatus);
     }
 
+    @PostMapping("/users-2")
+    public List<User> getAllUsers2() {
+
+        return service.getAllUsers2();
+    }
+
+    @PostMapping("/generate200")
+    public void generate200() {
+
+        service.generate200();
+    }
+
+    @DeleteMapping("/user/{id}")
+    public void deleteUser(@PathVariable long id) {
+        service.deleteUser(id);
+    }
+
 
 }

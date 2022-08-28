@@ -19,4 +19,10 @@ public interface UserService {
     List<User> searchUsers(long searcherId);
 
     boolean addFavorite(long userId, long favoriteId);
+
+    List<User> getAllUsers2();
+
+    void generate200();
+
+    void deleteUser(long id);
 }
